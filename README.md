@@ -2,6 +2,22 @@
 
 > 此文件由 `python tools/add_prompt.py rebuild` 自动生成，请勿手工编辑。
 
+## 人物艺术类
+
+### 东方极简水墨线条肖像
+
+[查看 Prompt](prompts/oriental-minimalist-ink-portrait/index.md) · 水墨 / 东方美学 / 极简 / 毛笔线条 / 人物肖像 / 参考图重绘 · ChatGPT Image · 2:3
+
+<img src="prompts/oriental-minimalist-ink-portrait/preview.webp" alt="东方极简水墨线条肖像" width="360">
+
+## 参考图风格化
+
+### 黑白越界编辑插画
+
+[查看 Prompt](prompts/editorial-boundary-illustration/index.md) · 黑白插画 / 编辑设计 / 越界构图 / 几何色块 / 手绘线稿 / 参考图重构 · ChatGPT Image · 4:5
+
+<img src="prompts/editorial-boundary-illustration/preview.webp" alt="黑白越界编辑插画" width="360">
+
 ## 封面知识类
 
 ### 复古报刊商业信息图
@@ -27,6 +43,12 @@
 [查看 Prompt](prompts/whiteboard-infographic/index.md) · 手绘 / 白板 / 信息图 · 未注明 · 16:9
 
 <img src="prompts/whiteboard-infographic/preview.webp" alt="白板手绘知识图解" width="360">
+
+### 白板手绘知识图解
+
+[查看 Prompt](prompts/whiteboard-infographic-1/index.md) · 手绘 / 信息图 / 白板 / 技术科普 / 概念图解 · ChatGPT Image · 16:9
+
+<img src="prompts/whiteboard-infographic-1/preview.webp" alt="白板手绘知识图解" width="360">
 
 ## 摄影海报类
 
