@@ -48,6 +48,12 @@
 
 <img src="prompts/pet-portrait-scribble-line-illustration/preview.webp" alt="宠物手绘肖像指南" width="360">
 
+### 宠物拍立得水彩手绘
+
+[查看 Prompt](prompts/polaroid-watercolor-pet-portrait/index.md) · 宠物肖像 / 拍立得 / 水彩手绘 / 超框构图 / 手写签名 / 纪念插画 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/polaroid-watercolor-pet-portrait/preview.webp" alt="宠物拍立得水彩手绘" width="360">
+
 ## 封面知识类
 
 ### 复古报刊商业信息图
@@ -158,11 +164,23 @@
 
 <img src="prompts/business-tech-magazine-cover-1/preview.webp" alt="商业杂志头版" width="360">
 
+### 复古日本科幻动画
+
+[查看 Prompt](prompts/retro-japanese-sci-fi-anime-cover/index.md) · 复古动画 / 日本科幻 / 赛璐璐 / 标题卡 / 高饱和限色 / 编辑封面 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/retro-japanese-sci-fi-anime-cover/preview.webp" alt="复古日本科幻动画" width="360">
+
 ### 复古时代错位编辑封面
 
 [查看 Prompt](prompts/retro-time-dislocation-editorial-cover/index.md) · 复古商业插画 / 时代错位 / 编辑设计 / 超现实隐喻 / Mid-century / 杂志封面 · ChatGPT Images 2.5 · 自定义
 
 <img src="prompts/retro-time-dislocation-editorial-cover/preview.webp" alt="复古时代错位编辑封面" width="360">
+
+### 复古油墨点阵隐喻
+
+[查看 Prompt](prompts/retro-ink-dot-matrix-metaphor/index.md) · 复古油墨 / 点阵插画 / 极简隐喻 / 档案美学 / 编辑封面 / 机械铅字 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/retro-ink-dot-matrix-metaphor/preview.webp" alt="复古油墨点阵隐喻" width="360">
 
 ### 极简视觉隐喻风
 
@@ -181,6 +199,12 @@
 [查看 Prompt](prompts/french-minimal-ink-concept-poster/index.md) · 法式极简 / 墨线插画 / 概念海报 / 视觉隐喻 / 编辑设计 / 大留白 · ChatGPT Images 2.5 · 自定义
 
 <img src="prompts/french-minimal-ink-concept-poster/preview.webp" alt="法式极简墨线海报" width="360">
+
+### 科研期刊概念
+
+[查看 Prompt](prompts/scientific-journal-concept-cover/index.md) · 科研期刊 / 科学封面 / 机制可视化 / 学术视觉 / 编辑设计 / 概念渲染 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/scientific-journal-concept-cover/preview.webp" alt="科研期刊概念" width="360">
 
 ### 立体纸雕概念海报
 
@@ -241,6 +265,18 @@
 <img src="prompts/jinan-typography-travel-poster/preview.webp" alt="城市字母填景旅游海报" width="360">
 
 ## 海报设计类
+
+### 复古弥散渐变
+
+[查看 Prompt](prompts/retro-diffuse-gradient-editorial-poster/index.md) · 弥散渐变 / 复古印刷 / 实验排版 / 编辑海报 / 扫描质感 / 独立杂志 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/retro-diffuse-gradient-editorial-poster/preview.webp" alt="复古弥散渐变" width="360">
+
+### 复古手撕拼贴
+
+[查看 Prompt](prompts/retro-torn-paper-collage-editorial-poster/index.md) · 手撕拼贴 / 复古编辑 / 旧报纸 / 杂志海报 / 半调网点 / 手写批注 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/retro-torn-paper-collage-editorial-poster/preview.webp" alt="复古手撕拼贴" width="360">
 
 ### 巨型透视中文标题
 
