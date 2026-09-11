@@ -2,6 +2,14 @@
 
 > 此文件由 `python tools/add_prompt.py rebuild` 自动生成，请勿手工编辑。
 
+## 人物插画类
+
+### 怪诞灵魂手绘
+
+[查看 Prompt](prompts/grotesque-soul-handdrawn-portrait/index.md) · 怪诞手绘 / 情绪夸张 / 彩色铅笔 / 蜡笔 / 圆珠笔 / 人物重绘 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/grotesque-soul-handdrawn-portrait/preview.webp" alt="怪诞灵魂手绘" width="360">
+
 ## 人物艺术类
 
 ### 东方极简水墨线条肖像
@@ -23,6 +31,14 @@
 [查看 Prompt](prompts/editorial-boundary-illustration/index.md) · 黑白插画 / 编辑设计 / 越界构图 / 几何色块 / 手绘线稿 / 参考图重构 · ChatGPT Image · 4:5
 
 <img src="prompts/editorial-boundary-illustration/preview.webp" alt="黑白越界编辑插画" width="360">
+
+## 宠物插画类
+
+### 宠物手绘肖像指南
+
+[查看 Prompt](prompts/pet-portrait-scribble-line-illustration/index.md) · 宠物插画 / 手绘肖像 / 彩铅蜡笔 / 凌乱线条 / 白底留白 / 纪念头像 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/pet-portrait-scribble-line-illustration/preview.webp" alt="宠物手绘肖像指南" width="360">
 
 ## 封面知识类
 
@@ -92,6 +108,18 @@
 
 ## 封面设计类
 
+### Godot 2D 像素隐喻海报
+
+[查看 Prompt](prompts/godot-2d-pixel-metaphor-poster/index.md) · 像素艺术 / 独立游戏 / Godot / 视觉隐喻 / 游戏关卡 / 概念海报 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/godot-2d-pixel-metaphor-poster/preview.webp" alt="Godot 2D 像素隐喻海报" width="360">
+
+### Kimi Archive 档案美学
+
+[查看 Prompt](prompts/archive-tabletop-editorial-cover/index.md) · 档案美学 / 静物摄影 / 编辑设计 / 灯箱桌面 / 概念封面 / 极简留白 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/archive-tabletop-editorial-cover/preview.webp" alt="Kimi Archive 档案美学" width="360">
+
 ### 咨询报告视觉
 
 [查看 Prompt](prompts/consulting-report-visual/index.md) · 管理咨询 / 瑞士现代主义 / 商业报告 / 编辑设计 / 战略视觉 / 极简封面 · ChatGPT Images 2.5 · 自定义
@@ -116,11 +144,23 @@
 
 <img src="prompts/business-tech-magazine-cover-1/preview.webp" alt="商业杂志头版" width="360">
 
+### 复古时代错位编辑封面
+
+[查看 Prompt](prompts/retro-time-dislocation-editorial-cover/index.md) · 复古商业插画 / 时代错位 / 编辑设计 / 超现实隐喻 / Mid-century / 杂志封面 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/retro-time-dislocation-editorial-cover/preview.webp" alt="复古时代错位编辑封面" width="360">
+
 ### 法式极简墨线海报
 
 [查看 Prompt](prompts/french-minimal-ink-concept-poster/index.md) · 法式极简 / 墨线插画 / 概念海报 / 视觉隐喻 / 编辑设计 / 大留白 · ChatGPT Images 2.5 · 自定义
 
 <img src="prompts/french-minimal-ink-concept-poster/preview.webp" alt="法式极简墨线海报" width="360">
+
+### 立体纸雕概念海报
+
+[查看 Prompt](prompts/3d-paper-cut-concept-poster/index.md) · 纸雕 / 立体剪纸 / 视觉隐喻 / 编辑设计 / 极简留白 / 概念海报 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/3d-paper-cut-concept-poster/preview.webp" alt="立体纸雕概念海报" width="360">
 
 ## 建筑视觉类
 
@@ -179,6 +219,12 @@
 [查看 Prompt](prompts/voxel-block-world-poster-1/index.md) · 方块世界 / 体素 / Minecraft / 游戏视觉 / 像素场景 / 立体文字 · ChatGPT Images 2.5 · 自定义
 
 <img src="prompts/voxel-block-world-poster-1/preview.webp" alt="方块世界" width="360">
+
+### 超大标题图文穿插
+
+[查看 Prompt](prompts/oversized-title-interleaved-editorial-poster/index.md) · 超大标题 / 图文穿插 / 编辑设计 / 杂志封面 / 品牌视觉 / 现代海报 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/oversized-title-interleaved-editorial-poster/preview.webp" alt="超大标题图文穿插" width="360">
 
 ### 黑白极简概念海报
 
