@@ -54,7 +54,21 @@
 
 <img src="prompts/polaroid-watercolor-pet-portrait/preview.webp" alt="宠物拍立得水彩手绘" width="360">
 
+## 封面概念类
+
+### 极简纸本墨线概念封面
+
+[查看 Prompt](prompts/minimal-ink-concept-editorial-cover/index.md) · 极简 / 墨线 / 视觉隐喻 / 编辑设计 / 纸本 / 概念封面 · ChatGPT Image · 自定义
+
+<img src="prompts/minimal-ink-concept-editorial-cover/preview.webp" alt="极简纸本墨线概念封面" width="360">
+
 ## 封面知识类
+
+### 复古双色编辑知识图解
+
+[查看 Prompt](prompts/retro-duotone-editorial-infographic/index.md) · 复古 / 信息图 / 编辑设计 / 双色印刷 / 知识卡片 / 中文排版 · ChatGPT Image · 16:9
+
+<img src="prompts/retro-duotone-editorial-infographic/preview.webp" alt="复古双色编辑知识图解" width="360">
 
 ### 复古报刊商业信息图
 
@@ -62,11 +76,23 @@
 
 <img src="prompts/vintage-business-infographic/preview.webp" alt="复古报刊商业信息图" width="360">
 
+### 复古水彩手账教程图解
+
+[查看 Prompt](prompts/retro-watercolor-tutorial-infographic/index.md) · 手绘 / 教程 / 信息图 / 水彩 / 步骤图解 / 编辑设计 · ChatGPT Images 2.5 · 5:2
+
+<img src="prompts/retro-watercolor-tutorial-infographic/preview.webp" alt="复古水彩手账教程图解" width="360">
+
 ### 手绘技术科普信息图
 
 [查看 Prompt](prompts/handdrawn-tech-infographic/index.md) · 手绘 / 信息图 / 科普 / 笔记感 / 技术插画 · ChatGPT Image · 16:9
 
 <img src="prompts/handdrawn-tech-infographic/preview.webp" alt="手绘技术科普信息图" width="360">
+
+### 极简战略编辑知识图解
+
+[查看 Prompt](prompts/minimal-strategy-editorial-infographic/index.md) · 极简 / 编辑设计 / 知识图解 / 战略咨询 / 商业思维 / 瑞士网格 · ChatGPT Images 2.5 · 16:9
+
+<img src="prompts/minimal-strategy-editorial-infographic/preview.webp" alt="极简战略编辑知识图解" width="360">
 
 ### 极简杂志文字排版
 
@@ -85,6 +111,18 @@
 [查看 Prompt](prompts/whiteboard-infographic-1/index.md) · 手绘 / 信息图 / 白板 / 技术科普 / 概念图解 · ChatGPT Image · 16:9
 
 <img src="prompts/whiteboard-infographic-1/preview.webp" alt="白板手绘知识图解" width="360">
+
+### 白板手绘知识图解
+
+[查看 Prompt](prompts/whiteboard-infographic-2/index.md) · 手绘 / 信息图 / 白板 / 知识图解 / 流程图 / 科普 · ChatGPT Image · 16:9
+
+<img src="prompts/whiteboard-infographic-2/preview.webp" alt="白板手绘知识图解" width="360">
+
+### 白板手绘知识图解
+
+[查看 Prompt](prompts/whiteboard-infographic-3/index.md) · 手绘 / 信息图 / 白板 / 流程图 / 教学图解 · ChatGPT Image · 16:9
+
+<img src="prompts/whiteboard-infographic-3/preview.webp" alt="白板手绘知识图解" width="360">
 
 ## 封面艺术类
 
@@ -347,3 +385,17 @@
 [查看 Prompt](prompts/cyber-bioluminescent-flower-infographic/index.md) · 赛博 / 生物荧光 / 花卉 / 信息图 / HUD / X光透视 / 科技档案 · ChatGPT Image · 9:16
 
 <img src="prompts/cyber-bioluminescent-flower-infographic/preview.webp" alt="赛博生物荧光花卉概念信息图" width="360">
+
+## 风格转换类
+
+### 复古中期现代主义几何纸片拼贴
+
+[查看 Prompt](prompts/mid-century-geometric-paper-collage/index.md) · 几何拼贴 / 纸片插画 / Mid-century / 复古编辑 / 低饱和 / 手工剪纸 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/mid-century-geometric-paper-collage/preview.webp" alt="复古中期现代主义几何纸片拼贴" width="360">
+
+### 极简低多边形编辑插画
+
+[查看 Prompt](prompts/minimal-low-poly-editorial-illustration/index.md) · Low Poly / 极简插画 / 编辑插画 / 几何切面 / 大留白 / 照片重绘 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/minimal-low-poly-editorial-illustration/preview.webp" alt="极简低多边形编辑插画" width="360">
