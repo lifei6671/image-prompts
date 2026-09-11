@@ -56,6 +56,14 @@
 
 <img src="prompts/whiteboard-infographic-1/preview.webp" alt="白板手绘知识图解" width="360">
 
+## 封面艺术类
+
+### 黑白复古蚀刻版画封面
+
+[查看 Prompt](prompts/black-white-vintage-etching-cover/index.md) · 黑白 / 蚀刻版画 / 铜版画 / 复古 / 超现实 / 编辑插画 · ChatGPT Images 2.5 · 5:2
+
+<img src="prompts/black-white-vintage-etching-cover/preview.webp" alt="黑白复古蚀刻版画封面" width="360">
+
 ## 封面视觉类
 
 ### Anthropic Research 风格研究编辑封面
@@ -81,6 +89,38 @@
 [查看 Prompt](prompts/black-retro-modernist-cover/index.md) · 黑色封面 / 复古现代主义 / 编辑插画 / 几何构成 / 书封设计 / 丝网印刷 · ChatGPT Image · 自定义
 
 <img src="prompts/black-retro-modernist-cover/preview.webp" alt="黑色复古现代主义封面" width="360">
+
+## 封面设计类
+
+### 咨询报告视觉
+
+[查看 Prompt](prompts/consulting-report-visual/index.md) · 管理咨询 / 瑞士现代主义 / 商业报告 / 编辑设计 / 战略视觉 / 极简封面 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/consulting-report-visual/preview.webp" alt="咨询报告视觉" width="360">
+
+### 品牌协同连接
+
+[查看 Prompt](prompts/brand-collaboration-connection/index.md) · 品牌协同 / 工具连接 / 产品集成 / 轻拟物 / 3D图标 / 极简封面 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/brand-collaboration-connection/preview.webp" alt="品牌协同连接" width="360">
+
+### 商业杂志头版
+
+[查看 Prompt](prompts/business-tech-magazine-cover/index.md) · 商业杂志 / 科技编辑 / 商业趋势 / 编辑设计 / 概念封面 / 数据新闻 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/business-tech-magazine-cover/preview.webp" alt="商业杂志头版" width="360">
+
+### 商业杂志头版
+
+[查看 Prompt](prompts/business-tech-magazine-cover-1/index.md) · 商业杂志 / 科技编辑 / 商业趋势 / 编辑设计 / 概念封面 / 数据新闻 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/business-tech-magazine-cover-1/preview.webp" alt="商业杂志头版" width="360">
+
+### 法式极简墨线海报
+
+[查看 Prompt](prompts/french-minimal-ink-concept-poster/index.md) · 法式极简 / 墨线插画 / 概念海报 / 视觉隐喻 / 编辑设计 / 大留白 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/french-minimal-ink-concept-poster/preview.webp" alt="法式极简墨线海报" width="360">
 
 ## 建筑视觉类
 
@@ -113,6 +153,44 @@
 [查看 Prompt](prompts/jinan-typography-travel-poster/index.md) · 城市 / 旅游 / 海报 / 字体设计 / 建筑插画 · ChatGPT Image · 16:9
 
 <img src="prompts/jinan-typography-travel-poster/preview.webp" alt="城市字母填景旅游海报" width="360">
+
+## 海报设计类
+
+### 巨型透视中文标题
+
+[查看 Prompt](prompts/giant-perspective-chinese-title-poster/index.md) · 中文字体 / 巨型标题 / 强透视 / 空间海报 / 视觉冲击 / 字体构成 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/giant-perspective-chinese-title-poster/preview.webp" alt="巨型透视中文标题" width="360">
+
+### 彩色新构成主义巨构海报
+
+[查看 Prompt](prompts/color-neo-constructivist-megastructure-poster/index.md) · 新构成主义 / 巨构视觉 / 几何海报 / 极端尺度 / 限色设计 / 复古印刷 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/color-neo-constructivist-megastructure-poster/preview.webp" alt="彩色新构成主义巨构海报" width="360">
+
+### 方块世界
+
+[查看 Prompt](prompts/voxel-block-world-poster/index.md) · 方块世界 / 体素 / Minecraft / 游戏视觉 / 像素场景 / 立体文字 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/voxel-block-world-poster/preview.webp" alt="方块世界" width="360">
+
+### 方块世界
+
+[查看 Prompt](prompts/voxel-block-world-poster-1/index.md) · 方块世界 / 体素 / Minecraft / 游戏视觉 / 像素场景 / 立体文字 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/voxel-block-world-poster-1/preview.webp" alt="方块世界" width="360">
+
+### 黑白极简概念海报
+
+[查看 Prompt](prompts/black-white-minimal-concept-poster/index.md) · 黑白灰 / 极简 / 概念海报 / 编辑设计 / 现代主义 / 作品集封面 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/black-white-minimal-concept-poster/preview.webp" alt="黑白极简概念海报" width="360">
+
+### 黑白灰先锋几何海报
+
+[查看 Prompt](prompts/black-white-gray-avant-garde-geometric-poster/index.md) · 黑白灰 / 几何海报 / 先锋设计 / 现代主义 / 极简排版 / 构成设计 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/black-white-gray-avant-garde-geometric-poster/preview.webp" alt="黑白灰先锋几何海报" width="360">
 
 ## 知识信息图类
 
