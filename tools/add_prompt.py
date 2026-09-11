@@ -36,6 +36,7 @@ WEBP_QUALITY = 85
 MAX_UPLOAD_BYTES = 20 * 1024 * 1024
 ID_PATTERN = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 RATIO_PATTERN = re.compile(r"^[1-9]\d*:[1-9]\d*$")
+CUSTOM_RATIO = "自定义"
 DATA_URL_PATTERN = re.compile(r"^data:image/([a-zA-Z0-9.+-]+);base64,(.*)$", re.DOTALL)
 
 
@@ -166,8 +167,8 @@ def detect_ratio(width: int, height: int) -> str:
 
 
 def validate_ratio(value: str) -> str:
-    if not RATIO_PATTERN.fullmatch(value):
-        raise ValueError("aspect_ratio 必须是正整数宽高比，例如 16:9。")
+    if value != CUSTOM_RATIO and not RATIO_PATTERN.fullmatch(value):
+        raise ValueError("aspect_ratio 必须是正整数宽高比（例如 16:9）或“自定义”。")
     return value
 
 
@@ -387,7 +388,7 @@ def web_page(categories: list[str]) -> bytes:
     options = "".join(f'<option value="{html.escape(category, quote=True)}"></option>' for category in categories)
     page = '''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prompt 素材库</title><style>
 body{max-width:760px;margin:40px auto;padding:0 20px;background:#f7f4ee;color:#252525;font:16px system-ui,sans-serif}h1{margin-bottom:6px}form{display:grid;gap:16px;background:#fff;padding:24px;border-radius:14px;box-shadow:0 8px 24px #0001}label{display:grid;gap:6px;font-weight:600}input,textarea,button{box-sizing:border-box;font:inherit;padding:10px;border:1px solid #c9c5bb;border-radius:8px}textarea{min-height:260px;resize:vertical}button{background:#1c5b75;color:#fff;border:0;cursor:pointer;font-weight:700}.drop{padding:28px;border:2px dashed #9ea69a;text-align:center;border-radius:10px;color:#555}.drop.drag{background:#eef6f4}.hint,#result{color:#666;font-size:14px}#result.ok{color:#17653b}#result.error{color:#a32020}</style>
-<h1>新增 Prompt</h1><p class="hint">粘贴图片、拖入图片或选择文件；图片只在本机处理。Prompt 顶部的 YAML 元数据会自动解析并优先使用。</p><form id="form"><div id="drop" class="drop" tabindex="0">点击选择图片，或直接粘贴 / 拖入图片<br><span id="image-name" class="hint">尚未选择</span><input id="image" type="file" accept="image/*" hidden></div><label>标题<input name="title"></label><label>分类<input name="category" list="categories" placeholder="选择或输入新分类"><datalist id="categories">__CATEGORY_OPTIONS__</datalist><span class="hint">可选择已有分类，也可直接输入新分类。</span></label><label>标签（逗号分隔）<input name="tags"></label><label>模型<input name="model" value="未注明"></label><label>比例（留空自动识别）<input name="ratio" placeholder="16:9"></label><label>Prompt<textarea name="prompt" required></textarea></label><button>创建记录</button><div id="result" aria-live="polite"></div></form><script>
+<h1>新增 Prompt</h1><p class="hint">粘贴图片、拖入图片或选择文件；图片只在本机处理。Prompt 顶部的 YAML 元数据会自动解析并优先使用。</p><form id="form"><div id="drop" class="drop" tabindex="0">点击选择图片，或直接粘贴 / 拖入图片<br><span id="image-name" class="hint">尚未选择</span><input id="image" type="file" accept="image/*" hidden></div><label>标题<input name="title"></label><label>分类<input name="category" list="categories" placeholder="选择或输入新分类"><datalist id="categories">__CATEGORY_OPTIONS__</datalist><span class="hint">可选择已有分类，也可直接输入新分类。</span></label><label>标签（逗号分隔）<input name="tags"></label><label>模型<input name="model" value="未注明"></label><label>比例（留空自动识别）<input name="ratio" placeholder="16:9 或 自定义"></label><label>Prompt<textarea name="prompt" required></textarea></label><button>创建记录</button><div id="result" aria-live="polite"></div></form><script>
 const form=document.querySelector('#form'),drop=document.querySelector('#drop'),fileInput=document.querySelector('#image'),name=document.querySelector('#image-name'),result=document.querySelector('#result');let imageFile;
 function setImage(file){if(!file||!file.type.startsWith('image/'))return;imageFile=file;name.textContent=`已选择：${file.name||'剪贴板图片'}`}
 drop.onclick=()=>fileInput.click();fileInput.onchange=()=>setImage(fileInput.files[0]);drop.ondragover=e=>{e.preventDefault();drop.classList.add('drag')};drop.ondragleave=()=>drop.classList.remove('drag');drop.ondrop=e=>{e.preventDefault();drop.classList.remove('drag');setImage(e.dataTransfer.files[0])};document.addEventListener('paste',e=>{for(const item of e.clipboardData.items)if(item.type.startsWith('image/')){setImage(item.getAsFile());break}});
@@ -483,7 +484,7 @@ def build_parser() -> argparse.ArgumentParser:
     add_parser.add_argument("--category", help="主分类")
     add_parser.add_argument("--tags", help="逗号分隔的标签")
     add_parser.add_argument("--model", help="生成模型")
-    add_parser.add_argument("--ratio", help="宽高比，例如 16:9；默认自动识别")
+    add_parser.add_argument("--ratio", help="宽高比，例如 16:9，或“自定义”；默认自动识别")
     prompt_source = add_parser.add_mutually_exclusive_group()
     prompt_source.add_argument("--prompt-file", type=Path, help="包含 Prompt 的 UTF-8 文本文件")
     prompt_source.add_argument("--prompt-stdin", action="store_true", help="从标准输入读取 Prompt")

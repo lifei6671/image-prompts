@@ -56,6 +56,40 @@
 
 <img src="prompts/whiteboard-infographic-1/preview.webp" alt="白板手绘知识图解" width="360">
 
+## 封面视觉类
+
+### Anthropic Research 风格研究编辑封面
+
+[查看 Prompt](prompts/anthropic-research-editorial/index.md) · 研究编辑 / 极简 / 手绘隐喻 / 衬线排版 / 大面积留白 / AI研究 · ChatGPT Image · 自定义
+
+<img src="prompts/anthropic-research-editorial/preview.webp" alt="Anthropic Research 风格研究编辑封面" width="360">
+
+### 极简轻科技视觉
+
+[查看 Prompt](prompts/minimal-light-tech-visual/index.md) · 极简 / 科技 / 渐变 / 品牌视觉 / 轻拟物 · ChatGPT Image · 自定义
+
+<img src="prompts/minimal-light-tech-visual/preview.webp" alt="极简轻科技视觉" width="360">
+
+### 黑红剪影封面
+
+[查看 Prompt](prompts/black-red-silhouette-cover/index.md) · 黑红 / 剪影 / 极简 / 高对比 / 编辑封面 / 视觉隐喻 · ChatGPT Image · 自定义
+
+<img src="prompts/black-red-silhouette-cover/preview.webp" alt="黑红剪影封面" width="360">
+
+### 黑色复古现代主义封面
+
+[查看 Prompt](prompts/black-retro-modernist-cover/index.md) · 黑色封面 / 复古现代主义 / 编辑插画 / 几何构成 / 书封设计 / 丝网印刷 · ChatGPT Image · 自定义
+
+<img src="prompts/black-retro-modernist-cover/preview.webp" alt="黑色复古现代主义封面" width="360">
+
+## 建筑视觉类
+
+### 先锋复古建筑海报
+
+[查看 Prompt](prompts/avant-garde-retro-architecture-poster/index.md) · 建筑 / 复古海报 / 新构成主义 / 编辑设计 / 丝网印刷 / 城市视觉 · ChatGPT Image · 自定义
+
+<img src="prompts/avant-garde-retro-architecture-poster/preview.webp" alt="先锋复古建筑海报" width="360">
+
 ## 摄影海报类
 
 ### 文化档案式摄影对比海报
