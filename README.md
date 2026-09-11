@@ -218,6 +218,12 @@
 
 <img src="prompts/embossed-debossed-paper-editorial-cover/preview.webp" alt="纸面击凸压凹封面" width="360">
 
+### 银色锡纸蓝字
+
+[查看 Prompt](prompts/silver-foil-klein-blue-editorial-cover/index.md) · 银色锡纸 / 克莱因蓝 / 极简设计 / 线条隐喻 / 编辑封面 / 金属材质 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/silver-foil-klein-blue-editorial-cover/preview.webp" alt="银色锡纸蓝字" width="360">
+
 ## 建筑视觉类
 
 ### 先锋复古建筑海报
@@ -301,6 +307,12 @@
 [查看 Prompt](prompts/voxel-block-world-poster-1/index.md) · 方块世界 / 体素 / Minecraft / 游戏视觉 / 像素场景 / 立体文字 · ChatGPT Images 2.5 · 自定义
 
 <img src="prompts/voxel-block-world-poster-1/preview.webp" alt="方块世界" width="360">
+
+### 语义转译极简
+
+[查看 Prompt](prompts/semantic-translation-minimal-poster/index.md) · 语义转译 / 极简海报 / 文字构成 / 视觉隐喻 / 编辑设计 / 概念海报 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/semantic-translation-minimal-poster/preview.webp" alt="语义转译极简" width="360">
 
 ### 超大标题图文穿插
 
