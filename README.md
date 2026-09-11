@@ -32,6 +32,14 @@
 
 <img src="prompts/editorial-boundary-illustration/preview.webp" alt="黑白越界编辑插画" width="360">
 
+## 头像生成类
+
+### 像素风头像生成器
+
+[查看 Prompt](prompts/pixel-avatar-generator/index.md) · 像素风 / 头像 / 8-bit / 复古游戏 / 高饱和配色 / 角色设计 · ChatGPT Images 2.5 · 1:1
+
+<img src="prompts/pixel-avatar-generator/preview.webp" alt="像素风头像生成器" width="360">
+
 ## 宠物插画类
 
 ### 宠物手绘肖像指南
@@ -120,6 +128,12 @@
 
 <img src="prompts/archive-tabletop-editorial-cover/preview.webp" alt="Kimi Archive 档案美学" width="360">
 
+### OSB 工业蓝线条隐喻
+
+[查看 Prompt](prompts/osb-industrial-blue-line-metaphor/index.md) · OSB刨花板 / 工业蓝 / 极简线条 / 视觉隐喻 / 工业标识 / 编辑封面 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/osb-industrial-blue-line-metaphor/preview.webp" alt="OSB 工业蓝线条隐喻" width="360">
+
 ### 咨询报告视觉
 
 [查看 Prompt](prompts/consulting-report-visual/index.md) · 管理咨询 / 瑞士现代主义 / 商业报告 / 编辑设计 / 战略视觉 / 极简封面 · ChatGPT Images 2.5 · 自定义
@@ -150,6 +164,18 @@
 
 <img src="prompts/retro-time-dislocation-editorial-cover/preview.webp" alt="复古时代错位编辑封面" width="360">
 
+### 极简视觉隐喻风
+
+[查看 Prompt](prompts/minimal-visual-metaphor-editorial-cover/index.md) · 极简 / 视觉隐喻 / 抽象装置 / 商业科技 / 编辑设计 / 静物摄影 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/minimal-visual-metaphor-editorial-cover/preview.webp" alt="极简视觉隐喻风" width="360">
+
+### 极简轻科技
+
+[查看 Prompt](prompts/minimal-light-tech-cover/index.md) · 极简科技 / 轻科技 / 3D玻璃 / 品牌视觉 / 产品封面 / 大留白 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/minimal-light-tech-cover/preview.webp" alt="极简轻科技" width="360">
+
 ### 法式极简墨线海报
 
 [查看 Prompt](prompts/french-minimal-ink-concept-poster/index.md) · 法式极简 / 墨线插画 / 概念海报 / 视觉隐喻 / 编辑设计 / 大留白 · ChatGPT Images 2.5 · 自定义
@@ -162,6 +188,12 @@
 
 <img src="prompts/3d-paper-cut-concept-poster/preview.webp" alt="立体纸雕概念海报" width="360">
 
+### 纸面击凸压凹封面
+
+[查看 Prompt](prompts/embossed-debossed-paper-editorial-cover/index.md) · 击凸 / 压凹 / 纸张工艺 / 编辑设计 / 极简海报 / 艺术书封 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/embossed-debossed-paper-editorial-cover/preview.webp" alt="纸面击凸压凹封面" width="360">
+
 ## 建筑视觉类
 
 ### 先锋复古建筑海报
@@ -170,6 +202,14 @@
 
 <img src="prompts/avant-garde-retro-architecture-poster/preview.webp" alt="先锋复古建筑海报" width="360">
 
+## 插画设计类
+
+### 极简纸感丙烯色块插画
+
+[查看 Prompt](prompts/minimal-paper-acrylic-block-illustration/index.md) · 极简插画 / 纸张质感 / 丙烯色块 / 大留白 / 视觉提炼 / 封面插画 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/minimal-paper-acrylic-block-illustration/preview.webp" alt="极简纸感丙烯色块插画" width="360">
+
 ## 摄影海报类
 
 ### 文化档案式摄影对比海报
@@ -177,6 +217,12 @@
 [查看 Prompt](prompts/cultural-archive-photo-comparison/index.md) · 摄影再设计 / 左右对比 / 文化档案 / 海报设计 / 东方美学 · ChatGPT Image · 3:2
 
 <img src="prompts/cultural-archive-photo-comparison/preview.webp" alt="文化档案式摄影对比海报" width="360">
+
+### 极简公共空间摄影
+
+[查看 Prompt](prompts/minimal-public-space-editorial-photography/index.md) · 公共空间 / 极简摄影 / 编辑海报 / 几何构图 / 复古色彩 / 空间隐喻 · ChatGPT Images 2.5 · 自定义
+
+<img src="prompts/minimal-public-space-editorial-photography/preview.webp" alt="极简公共空间摄影" width="360">
 
 ## 摄影转绘类
 
