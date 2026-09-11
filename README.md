@@ -24,6 +24,14 @@
 
 <img src="prompts/cultural-archive-photo-comparison/preview.webp" alt="文化档案式摄影对比海报" width="360">
 
+## 摄影转绘类
+
+### 四层风格城市地标转译海报
+
+[查看 Prompt](prompts/four-layer-landmark-poster/index.md) · 城市地标 / 四层海报 / 风格转译 / 摄影转绘 / 旅行海报 / 版画 · ChatGPT Image · 3:4
+
+<img src="prompts/four-layer-landmark-poster/preview.webp" alt="四层风格城市地标转译海报" width="360">
+
 ## 旅游海报
 
 ### 城市字母填景旅游海报
@@ -31,3 +39,11 @@
 [查看 Prompt](prompts/jinan-typography-travel-poster/index.md) · 城市 / 旅游 / 海报 / 字体设计 / 建筑插画 · ChatGPT Image · 16:9
 
 <img src="prompts/jinan-typography-travel-poster/preview.webp" alt="城市字母填景旅游海报" width="360">
+
+## 科技信息图类
+
+### 赛博生物荧光花卉概念信息图
+
+[查看 Prompt](prompts/cyber-bioluminescent-flower-infographic/index.md) · 赛博 / 生物荧光 / 花卉 / 信息图 / HUD / X光透视 / 科技档案 · ChatGPT Image · 9:16
+
+<img src="prompts/cyber-bioluminescent-flower-infographic/preview.webp" alt="赛博生物荧光花卉概念信息图" width="360">
