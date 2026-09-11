@@ -10,6 +10,18 @@
 
 <img src="prompts/vintage-business-infographic/preview.webp" alt="复古报刊商业信息图" width="360">
 
+### 手绘技术科普信息图
+
+[查看 Prompt](prompts/handdrawn-tech-infographic/index.md) · 手绘 / 信息图 / 科普 / 笔记感 / 技术插画 · ChatGPT Image · 16:9
+
+<img src="prompts/handdrawn-tech-infographic/preview.webp" alt="手绘技术科普信息图" width="360">
+
+### 极简杂志文字排版
+
+[查看 Prompt](prompts/minimal-editorial-typography/index.md) · 极简 / 文字排版 / 杂志设计 / 编辑设计 / 高级感 · ChatGPT Image · 3:4
+
+<img src="prompts/minimal-editorial-typography/preview.webp" alt="极简杂志文字排版" width="360">
+
 ### 白板手绘知识图解
 
 [查看 Prompt](prompts/whiteboard-infographic/index.md) · 手绘 / 白板 / 信息图 · 未注明 · 16:9
@@ -39,6 +51,14 @@
 [查看 Prompt](prompts/jinan-typography-travel-poster/index.md) · 城市 / 旅游 / 海报 / 字体设计 / 建筑插画 · ChatGPT Image · 16:9
 
 <img src="prompts/jinan-typography-travel-poster/preview.webp" alt="城市字母填景旅游海报" width="360">
+
+## 知识信息图类
+
+### 手绘笔记知识图解
+
+[查看 Prompt](prompts/handdrawn-notebook-infographic/index.md) · 手绘 / 信息图 / 笔记本 / 知识图解 / 马克笔 / 技术科普 · ChatGPT Image · 3:4
+
+<img src="prompts/handdrawn-notebook-infographic/preview.webp" alt="手绘笔记知识图解" width="360">
 
 ## 科技信息图类
 
