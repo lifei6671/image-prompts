@@ -47,3 +47,15 @@ python tools/add_prompt.py add C:\\path\\to\\image.png
 python tools/add_prompt.py rebuild
 python tools/add_prompt.py list
 ```
+
+也可以启动仅本机可访问的录入页面：
+
+```powershell
+python tools/add_prompt.py serve
+```
+
+在浏览器打开命令输出的地址，粘贴或上传图片、粘贴 Prompt 并填写元数据即可创建记录。
+
+根目录 `metadata.json` 是分类的权威来源。服务启动时读取它；页面可选择已有分类，或输入新分类。首次成功使用的新分类会自动写回该文件。
+
+网页的 Prompt 可以以 YAML Front Matter 开头。若含有 `id`、`title`、`category`、`tags`、`model`、`ratio`（或 `aspect_ratio`）和 `created_at`，服务会优先解析这些字段并从保存的 Prompt 正文中移除该元数据块；页面字段只用于补全缺失字段。
