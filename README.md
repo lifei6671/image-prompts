@@ -12,6 +12,12 @@
 
 ## 参考图风格化
 
+### 深蓝白手绘模切贴纸
+
+[查看 Prompt](prompts/navy-white-diecut-sticker/index.md) · 手绘 / 模切贴纸 / 极简插画 / 深蓝白 / 人物宠物 / 参考图重绘 · ChatGPT Image · 1:1
+
+<img src="prompts/navy-white-diecut-sticker/preview.webp" alt="深蓝白手绘模切贴纸" width="360">
+
 ### 黑白越界编辑插画
 
 [查看 Prompt](prompts/editorial-boundary-illustration/index.md) · 黑白插画 / 编辑设计 / 越界构图 / 几何色块 / 手绘线稿 / 参考图重构 · ChatGPT Image · 4:5
