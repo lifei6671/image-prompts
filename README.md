@@ -384,6 +384,14 @@
 
 <img src="prompts/handdrawn-notebook-infographic/preview.webp" alt="手绘笔记知识图解" width="360">
 
+## 知识图解类
+
+### 手绘编辑型知识信息图
+
+[查看 Prompt](prompts/handdrawn-editorial-infographic/index.md) · 手绘 / 信息图 / 流程图 / 手帐 / 纸张质感 · ChatGPT Image · 16:9
+
+<img src="prompts/handdrawn-editorial-infographic/preview.webp" alt="手绘编辑型知识信息图" width="360">
+
 ## 科技信息图类
 
 ### 赛博生物荧光花卉概念信息图
