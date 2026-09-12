@@ -124,6 +124,12 @@
 
 <img src="prompts/whiteboard-infographic-3/preview.webp" alt="白板手绘知识图解" width="360">
 
+### 马卡龙纸张手绘知识图解
+
+[查看 Prompt](prompts/pastel-handdrawn-infographic/index.md) · 手绘 / 信息图 / 马卡龙 / 纸张 / 知识图解 / 手写字 · ChatGPT Image · 自定义
+
+<img src="prompts/pastel-handdrawn-infographic/preview.webp" alt="马卡龙纸张手绘知识图解" width="360">
+
 ## 封面艺术类
 
 ### 黑白复古蚀刻版画封面
