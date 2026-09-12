@@ -1,6 +1,6 @@
 ---
 id: "whiteboard-infographic-2"
-title: "白板手绘知识图解"
+title: "粉彩模块知识流程讲解图"
 category: "封面知识类"
 tags:
   - "手绘"
@@ -14,7 +14,7 @@ aspect_ratio: "16:9"
 created_at: 2026-09-11
 ---
 
-# 白板手绘知识图解
+# 粉彩模块知识流程讲解图
 
 ![预览图](preview.webp)
 

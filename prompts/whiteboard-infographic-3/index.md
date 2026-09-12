@@ -1,6 +1,6 @@
 ---
 id: "whiteboard-infographic-3"
-title: "白板手绘知识图解"
+title: "红色批注白板教学拆解图"
 category: "封面知识类"
 tags:
   - "手绘"
@@ -13,7 +13,7 @@ aspect_ratio: "16:9"
 created_at: 2026-09-11
 ---
 
-# 白板手绘知识图解
+# 红色批注白板教学拆解图
 
 ![预览图](preview.webp)
 

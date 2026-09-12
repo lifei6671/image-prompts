@@ -13,7 +13,6 @@ import shutil
 import subprocess
 import sys
 import tempfile
-from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -323,20 +322,36 @@ def records() -> list[tuple[Path, dict[str, Any]]]:
 
 
 def rebuild() -> None:
-    grouped: dict[str, list[tuple[Path, dict[str, Any]]]] = defaultdict(list)
-    for path, metadata in records():
-        grouped[metadata["category"]].append((path, metadata))
-    lines = ["# Image Prompts", "", "> 此文件由 `python tools/add_prompt.py rebuild` 自动生成，请勿手工编辑。", ""]
-    if not grouped:
+    entries = sorted(records(), key=lambda item: (item[1]["title"].casefold(), item[1]["id"]))
+    entries.sort(key=lambda item: item[1]["created_at"], reverse=True)
+    lines = [
+        "# Image Prompts", "",
+        f"共 {len(entries)} 条 Prompt · 点击图片或标题查看完整 Prompt。", "",
+        "> 此文件由 `python tools/add_prompt.py rebuild` 自动生成；命令行或网页新增 Prompt 后会自动更新。", "",
+    ]
+    if not entries:
         lines.append("暂无素材。")
-    for category in sorted(grouped, key=str.casefold):
-        lines.extend((f"## {category}", ""))
-        for path, metadata in sorted(grouped[category], key=lambda item: item[1]["title"].casefold()):
-            record_dir = path.parent.relative_to(ROOT).as_posix()
-            tags = " / ".join(metadata["tags"])
-            lines.extend((f"### {metadata['title']}", "", f"[查看 Prompt]({record_dir}/index.md) · {tags} · {metadata['model']} · {metadata['aspect_ratio']}", "", f'<img src="{record_dir}/preview.webp" alt="{metadata["title"]}" width="360">', ""))
+    else:
+        # One cell per column lets images of different heights stack independently.
+        # GitHub strips CSS, so keep the gallery in plain HTML with no blank lines.
+        lines.extend(("<table>", "<tr>"))
+        for column in range(2):
+            lines.append('<td width="50%" valign="top">')
+            for path, metadata in entries[column::2]:
+                record_dir = html.escape(path.parent.relative_to(ROOT).as_posix(), quote=True)
+                title = html.escape(metadata["title"], quote=True)
+                details = html.escape(f'{metadata["category"]} · {metadata["model"]} · {metadata["aspect_ratio"]}')
+                tags = html.escape(" / ".join(metadata["tags"]))
+                lines.extend((
+                    f'<p><a href="{record_dir}/index.md"><img src="{record_dir}/preview.webp" alt="{title}" width="100%"></a></p>',
+                    f'<p><a href="{record_dir}/index.md"><strong>{title}</strong></a><br>',
+                    f'<sub>{details}</sub><br><sub>{tags}</sub></p>',
+                    "<hr>",
+                ))
+            lines.append("</td>")
+        lines.extend(("</tr>", "</table>"))
     README_PATH.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
-    print(f"已重建 README，共 {sum(len(entries) for entries in grouped.values())} 条记录。")
+    print(f"已重建 README，共 {len(entries)} 条记录。")
 
 
 def create_record(image: Path, metadata: dict[str, Any], prompt: str) -> Path:

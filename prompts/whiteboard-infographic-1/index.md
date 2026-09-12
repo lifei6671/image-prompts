@@ -1,6 +1,6 @@
 ---
 id: "whiteboard-infographic-1"
-title: "白板手绘知识图解"
+title: "极简手绘技术概念关系图"
 category: "封面知识类"
 tags:
   - "手绘"
@@ -13,7 +13,7 @@ aspect_ratio: "16:9"
 created_at: 2026-09-11
 ---
 
-# 白板手绘知识图解
+# 极简手绘技术概念关系图
 
 ![预览图](preview.webp)
 
