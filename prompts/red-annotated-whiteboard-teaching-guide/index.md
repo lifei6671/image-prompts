@@ -1,5 +1,5 @@
 ---
-id: "whiteboard-infographic-3"
+id: "red-annotated-whiteboard-teaching-guide"
 title: "红色批注白板教学拆解图"
 category: "封面知识类"
 tags:

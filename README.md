@@ -1,6 +1,6 @@
 # Image Prompts
 
-共 66 条 Prompt · 点击图片或标题查看完整 Prompt。
+共 68 条 Prompt · 点击图片或标题查看完整 Prompt。
 
 > 此文件由 `python tools/add_prompt.py rebuild` 自动生成；命令行或网页新增 Prompt 后会自动更新。
 
@@ -11,9 +11,13 @@
 <p><a href="prompts/watercolor-editorial-collage/index.md"><strong>复古水彩编辑拼贴封面</strong></a><br>
 <sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>水彩 / 拼贴 / 编辑插画 / 纸张质感 / 复古</sub></p>
 <hr>
-<p><a href="prompts/case-board-editorial-infographic/index.md"><img src="prompts/case-board-editorial-infographic/preview.webp" alt="案件调查风知识图解" width="100%"></a></p>
-<p><a href="prompts/case-board-editorial-infographic/index.md"><strong>案件调查风知识图解</strong></a><br>
-<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>案件调查 / 信息图 / 编辑排版 / 漫画杂志 / 论文解读</sub></p>
+<p><a href="prompts/minimal-line-whiteboard-cover/index.md"><img src="prompts/minimal-line-whiteboard-cover/preview.webp" alt="极简线描白板封面" width="100%"></a></p>
+<p><a href="prompts/minimal-line-whiteboard-cover/index.md"><strong>极简线描白板封面</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>极简线描 / 白板插画 / 信息图 / 扁平手绘 / 科技封面</sub></p>
+<hr>
+<p><a href="prompts/warm-paper-handdrawn-flow-cover/index.md"><img src="prompts/warm-paper-handdrawn-flow-cover/preview.webp" alt="白板手绘知识图解" width="100%"></a></p>
+<p><a href="prompts/warm-paper-handdrawn-flow-cover/index.md"><strong>白板手绘知识图解</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 白板 / 流程图解 / 极简插画</sub></p>
 <hr>
 <p><a href="prompts/handdrawn-editorial-infographic/index.md"><img src="prompts/handdrawn-editorial-infographic/preview.webp" alt="手绘编辑型知识信息图" width="100%"></a></p>
 <p><a href="prompts/handdrawn-editorial-infographic/index.md"><strong>手绘编辑型知识信息图</strong></a><br>
@@ -87,8 +91,8 @@
 <p><a href="prompts/minimal-public-space-editorial-photography/index.md"><strong>极简公共空间摄影</strong></a><br>
 <sub>摄影海报类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>公共空间 / 极简摄影 / 编辑海报 / 几何构图 / 复古色彩 / 空间隐喻</sub></p>
 <hr>
-<p><a href="prompts/whiteboard-infographic-1/index.md"><img src="prompts/whiteboard-infographic-1/preview.webp" alt="极简手绘技术概念关系图" width="100%"></a></p>
-<p><a href="prompts/whiteboard-infographic-1/index.md"><strong>极简手绘技术概念关系图</strong></a><br>
+<p><a href="prompts/minimal-handdrawn-tech-concept-map/index.md"><img src="prompts/minimal-handdrawn-tech-concept-map/preview.webp" alt="极简手绘技术概念关系图" width="100%"></a></p>
+<p><a href="prompts/minimal-handdrawn-tech-concept-map/index.md"><strong>极简手绘技术概念关系图</strong></a><br>
 <sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 白板 / 技术科普 / 概念图解</sub></p>
 <hr>
 <p><a href="prompts/minimal-paper-acrylic-block-illustration/index.md"><img src="prompts/minimal-paper-acrylic-block-illustration/preview.webp" alt="极简纸感丙烯色块插画" width="100%"></a></p>
@@ -111,8 +115,8 @@
 <p><a href="prompts/scientific-journal-concept-cover/index.md"><strong>科研期刊概念</strong></a><br>
 <sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>科研期刊 / 科学封面 / 机制可视化 / 学术视觉 / 编辑设计 / 概念渲染</sub></p>
 <hr>
-<p><a href="prompts/whiteboard-infographic-2/index.md"><img src="prompts/whiteboard-infographic-2/preview.webp" alt="粉彩模块知识流程讲解图" width="100%"></a></p>
-<p><a href="prompts/whiteboard-infographic-2/index.md"><strong>粉彩模块知识流程讲解图</strong></a><br>
+<p><a href="prompts/pastel-modular-knowledge-flow/index.md"><img src="prompts/pastel-modular-knowledge-flow/preview.webp" alt="粉彩模块知识流程讲解图" width="100%"></a></p>
+<p><a href="prompts/pastel-modular-knowledge-flow/index.md"><strong>粉彩模块知识流程讲解图</strong></a><br>
 <sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 白板 / 知识图解 / 流程图 / 科普</sub></p>
 <hr>
 <p><a href="prompts/embossed-debossed-paper-editorial-cover/index.md"><img src="prompts/embossed-debossed-paper-editorial-cover/preview.webp" alt="纸面击凸压凹封面" width="100%"></a></p>
@@ -144,6 +148,10 @@
 <p><a href="prompts/noir-case-editorial-infographic/index.md"><img src="prompts/noir-case-editorial-infographic/preview.webp" alt="暗黑案件风知识图解" width="100%"></a></p>
 <p><a href="prompts/noir-case-editorial-infographic/index.md"><strong>暗黑案件风知识图解</strong></a><br>
 <sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>暗黑漫画 / 信息图 / 案件调查 / 编辑排版 / 论文解读</sub></p>
+<hr>
+<p><a href="prompts/case-board-editorial-infographic/index.md"><img src="prompts/case-board-editorial-infographic/preview.webp" alt="案件调查风知识图解" width="100%"></a></p>
+<p><a href="prompts/case-board-editorial-infographic/index.md"><strong>案件调查风知识图解</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>案件调查 / 信息图 / 编辑排版 / 漫画杂志 / 论文解读</sub></p>
 <hr>
 <p><a href="prompts/scientific-editorial-infographic/index.md"><img src="prompts/scientific-editorial-infographic/preview.webp" alt="科研编辑风知识信息图" width="100%"></a></p>
 <p><a href="prompts/scientific-editorial-infographic/index.md"><strong>科研编辑风知识信息图</strong></a><br>
@@ -245,8 +253,8 @@
 <p><a href="prompts/3d-paper-cut-concept-poster/index.md"><strong>立体纸雕概念海报</strong></a><br>
 <sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>纸雕 / 立体剪纸 / 视觉隐喻 / 编辑设计 / 极简留白 / 概念海报</sub></p>
 <hr>
-<p><a href="prompts/whiteboard-infographic-3/index.md"><img src="prompts/whiteboard-infographic-3/preview.webp" alt="红色批注白板教学拆解图" width="100%"></a></p>
-<p><a href="prompts/whiteboard-infographic-3/index.md"><strong>红色批注白板教学拆解图</strong></a><br>
+<p><a href="prompts/red-annotated-whiteboard-teaching-guide/index.md"><img src="prompts/red-annotated-whiteboard-teaching-guide/preview.webp" alt="红色批注白板教学拆解图" width="100%"></a></p>
+<p><a href="prompts/red-annotated-whiteboard-teaching-guide/index.md"><strong>红色批注白板教学拆解图</strong></a><br>
 <sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 白板 / 流程图 / 教学图解</sub></p>
 <hr>
 <p><a href="prompts/semantic-translation-minimal-poster/index.md"><img src="prompts/semantic-translation-minimal-poster/preview.webp" alt="语义转译极简" width="100%"></a></p>

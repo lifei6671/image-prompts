@@ -1,5 +1,5 @@
 ---
-id: "whiteboard-infographic-2"
+id: "pastel-modular-knowledge-flow"
 title: "粉彩模块知识流程讲解图"
 category: "封面知识类"
 tags:

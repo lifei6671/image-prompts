@@ -1,5 +1,5 @@
 ---
-id: "whiteboard-infographic-1"
+id: "minimal-handdrawn-tech-concept-map"
 title: "极简手绘技术概念关系图"
 category: "封面知识类"
 tags:
