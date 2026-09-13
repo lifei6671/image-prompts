@@ -93,6 +93,29 @@ class GalleryTests(unittest.TestCase):
         self.assertIn("prompts/second/index.md", self.readme())
         self.assertEqual(before, {p: p.read_bytes() for p in before})
 
+    def test_uploaded_document_is_preserved_except_for_preview_after_title(self):
+        metadata = self.metadata("preserved", title="原始标题")
+        document = "# 原始标题\n\n## Prompt\n\n```text\n# 代码块中的标题不受影响\n```\n"
+        image = self.root / "source.png"
+        add_prompt.Image.new("RGB", (40, 60), "white").save(image)
+
+        directory = add_prompt.create_record(image, metadata, "ignored", uploaded_document=document)
+        path = directory / "index.md"
+
+        body = path.read_text(encoding="utf-8").split("---\n", 2)[2]
+        self.assertEqual(
+            body,
+            "# 原始标题\n![预览图](preview.webp)\n\n## Prompt\n\n```text\n# 代码块中的标题不受影响\n```\n",
+        )
+
+    def test_preview_ignores_heading_like_text_in_a_code_fence(self):
+        document = "```text\n# 这不是标题\n```\n\n# 实际标题\n"
+
+        self.assertEqual(
+            add_prompt.insert_preview_after_first_heading(document),
+            "```text\n# 这不是标题\n```\n\n# 实际标题\n![预览图](preview.webp)\n",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

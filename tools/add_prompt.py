@@ -268,6 +268,40 @@ def write_record(path: Path, metadata: dict[str, Any], prompt: str) -> None:
     path.write_text(document + fence + "\n", encoding="utf-8")
 
 
+def insert_preview_after_first_heading(document: str) -> str:
+    lines = document.splitlines(keepends=True)
+    fence: tuple[str, int] | None = None
+    for index, line in enumerate(lines):
+        fence_match = re.match(r"^ {0,3}(`{3,}|~{3,})", line)
+        if fence_match:
+            marker = fence_match.group(1)
+            if fence is None:
+                fence = (marker[0], len(marker))
+            elif marker[0] == fence[0] and len(marker) >= fence[1]:
+                fence = None
+            continue
+        if fence is not None:
+            continue
+        if re.match(r"^ {0,3}#(?!#)[ \t]+\S", line):
+            if not line.endswith(("\n", "\r")):
+                lines[index] += "\n"
+            lines.insert(index + 1, "![预览图](preview.webp)\n")
+            return "".join(lines)
+    raise ValueError("Prompt 必须包含一级标题（# 标题）。")
+
+
+def write_uploaded_record(path: Path, metadata: dict[str, Any], document: str) -> None:
+    lines = ["---"]
+    for key in ("id", "title", "category"):
+        lines.append(f"{key}: {quote(metadata[key])}")
+    lines.append("tags:")
+    lines.extend(f"  - {quote(tag)}" for tag in metadata["tags"])
+    for key in ("model", "aspect_ratio"):
+        lines.append(f"{key}: {quote(metadata[key])}")
+    lines.extend((f"created_at: {metadata['created_at']}", "---", ""))
+    path.write_text("\n".join(lines) + insert_preview_after_first_heading(document), encoding="utf-8")
+
+
 def parse_metadata(path: Path) -> dict[str, Any]:
     lines = path.read_text(encoding="utf-8").splitlines()
     if not lines or lines[0] != "---":
@@ -354,7 +388,7 @@ def rebuild() -> None:
     print(f"已重建 README，共 {len(entries)} 条记录。")
 
 
-def create_record(image: Path, metadata: dict[str, Any], prompt: str) -> Path:
+def create_record(image: Path, metadata: dict[str, Any], prompt: str, uploaded_document: str | None = None) -> Path:
     record_id = validate_id(metadata["id"])
     destination_dir = PROMPTS_DIR / record_id
     if destination_dir.exists():
@@ -365,7 +399,10 @@ def create_record(image: Path, metadata: dict[str, Any], prompt: str) -> Path:
     try:
         detected_ratio = convert_image(image, destination_dir / "preview.webp")
         metadata["aspect_ratio"] = metadata["aspect_ratio"] or validate_ratio(detected_ratio)
-        write_record(destination_dir / "index.md", metadata, prompt)
+        if uploaded_document is None:
+            write_record(destination_dir / "index.md", metadata, prompt)
+        else:
+            write_uploaded_record(destination_dir / "index.md", metadata, uploaded_document)
         ensure_category(metadata["category"])
         rebuild()
     except Exception:
@@ -403,7 +440,7 @@ def web_page(categories: list[str]) -> bytes:
     options = "".join(f'<option value="{html.escape(category, quote=True)}"></option>' for category in categories)
     page = '''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prompt 素材库</title><style>
 body{max-width:760px;margin:40px auto;padding:0 20px;background:#f7f4ee;color:#252525;font:16px system-ui,sans-serif}h1{margin-bottom:6px}form{display:grid;gap:16px;background:#fff;padding:24px;border-radius:14px;box-shadow:0 8px 24px #0001}label{display:grid;gap:6px;font-weight:600}input,textarea,button{box-sizing:border-box;font:inherit;padding:10px;border:1px solid #c9c5bb;border-radius:8px}textarea{min-height:260px;resize:vertical}button{background:#1c5b75;color:#fff;border:0;cursor:pointer;font-weight:700}.drop{padding:28px;border:2px dashed #9ea69a;text-align:center;border-radius:10px;color:#555}.drop.drag{background:#eef6f4}.hint,#result{color:#666;font-size:14px}#result.ok{color:#17653b}#result.error{color:#a32020}</style>
-<h1>新增 Prompt</h1><p class="hint">粘贴图片、拖入图片或选择文件；图片只在本机处理。Prompt 顶部的 YAML 元数据会自动解析并优先使用。</p><form id="form"><div id="drop" class="drop" tabindex="0">点击选择图片，或直接粘贴 / 拖入图片<br><span id="image-name" class="hint">尚未选择</span><input id="image" type="file" accept="image/*" hidden></div><label>标题<input name="title"></label><label>分类<input name="category" list="categories" placeholder="选择或输入新分类"><datalist id="categories">__CATEGORY_OPTIONS__</datalist><span class="hint">可选择已有分类，也可直接输入新分类。</span></label><label>标签（逗号分隔）<input name="tags"></label><label>模型<input name="model" value="未注明"></label><label>比例（留空自动识别）<input name="ratio" placeholder="16:9 或 自定义"></label><label>Prompt<textarea name="prompt" required></textarea></label><button>创建记录</button><div id="result" aria-live="polite"></div></form><script>
+<h1>新增 Prompt</h1><p class="hint">粘贴图片、拖入图片或选择文件；图片只在本机处理。Prompt 顶部的 YAML 元数据会自动解析并优先使用，正文会保留原样，只在首个一级标题后插入预览图。</p><form id="form"><div id="drop" class="drop" tabindex="0">点击选择图片，或直接粘贴 / 拖入图片<br><span id="image-name" class="hint">尚未选择</span><input id="image" type="file" accept="image/*" hidden></div><label>标题<input name="title"></label><label>分类<input name="category" list="categories" placeholder="选择或输入新分类"><datalist id="categories">__CATEGORY_OPTIONS__</datalist><span class="hint">可选择已有分类，也可直接输入新分类。</span></label><label>标签（逗号分隔）<input name="tags"></label><label>模型<input name="model" value="未注明"></label><label>比例（留空自动识别）<input name="ratio" placeholder="16:9 或 自定义"></label><label>Prompt<textarea name="prompt" required></textarea></label><button>创建记录</button><div id="result" aria-live="polite"></div></form><script>
 const form=document.querySelector('#form'),drop=document.querySelector('#drop'),fileInput=document.querySelector('#image'),name=document.querySelector('#image-name'),result=document.querySelector('#result');let imageFile;
 function setImage(file){if(!file||!file.type.startsWith('image/'))return;imageFile=file;name.textContent=`已选择：${file.name||'剪贴板图片'}`}
 drop.onclick=()=>fileInput.click();fileInput.onchange=()=>setImage(fileInput.files[0]);drop.ondragover=e=>{e.preventDefault();drop.classList.add('drag')};drop.ondragleave=()=>drop.classList.remove('drag');drop.ondrop=e=>{e.preventDefault();drop.classList.remove('drag');setImage(e.dataTransfer.files[0])};document.addEventListener('paste',e=>{for(const item of e.clipboardData.items)if(item.type.startsWith('image/')){setImage(item.getAsFile());break}});
@@ -466,7 +503,7 @@ class PromptRequestHandler(BaseHTTPRequestHandler):
             with tempfile.TemporaryDirectory() as temporary:
                 source = Path(temporary) / f"upload.{image_match.group(1).split('+')[0]}"
                 source.write_bytes(image_bytes)
-                destination = create_record(source, metadata, prompt)
+                destination = create_record(source, metadata, prompt, uploaded_document=prompt)
         except (ValueError, json.JSONDecodeError) as error:
             self.send_json(HTTPStatus.BAD_REQUEST, {"error": str(error)})
             return

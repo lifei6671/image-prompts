@@ -1,12 +1,20 @@
 # Image Prompts
 
-共 62 条 Prompt · 点击图片或标题查看完整 Prompt。
+共 66 条 Prompt · 点击图片或标题查看完整 Prompt。
 
 > 此文件由 `python tools/add_prompt.py rebuild` 自动生成；命令行或网页新增 Prompt 后会自动更新。
 
 <table>
 <tr>
 <td width="50%" valign="top">
+<p><a href="prompts/watercolor-editorial-collage/index.md"><img src="prompts/watercolor-editorial-collage/preview.webp" alt="复古水彩编辑拼贴封面" width="100%"></a></p>
+<p><a href="prompts/watercolor-editorial-collage/index.md"><strong>复古水彩编辑拼贴封面</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>水彩 / 拼贴 / 编辑插画 / 纸张质感 / 复古</sub></p>
+<hr>
+<p><a href="prompts/case-board-editorial-infographic/index.md"><img src="prompts/case-board-editorial-infographic/preview.webp" alt="案件调查风知识图解" width="100%"></a></p>
+<p><a href="prompts/case-board-editorial-infographic/index.md"><strong>案件调查风知识图解</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>案件调查 / 信息图 / 编辑排版 / 漫画杂志 / 论文解读</sub></p>
+<hr>
 <p><a href="prompts/handdrawn-editorial-infographic/index.md"><img src="prompts/handdrawn-editorial-infographic/preview.webp" alt="手绘编辑型知识信息图" width="100%"></a></p>
 <p><a href="prompts/handdrawn-editorial-infographic/index.md"><strong>手绘编辑型知识信息图</strong></a><br>
 <sub>知识图解类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 流程图 / 手帐 / 纸张质感</sub></p>
@@ -133,6 +141,14 @@
 <hr>
 </td>
 <td width="50%" valign="top">
+<p><a href="prompts/noir-case-editorial-infographic/index.md"><img src="prompts/noir-case-editorial-infographic/preview.webp" alt="暗黑案件风知识图解" width="100%"></a></p>
+<p><a href="prompts/noir-case-editorial-infographic/index.md"><strong>暗黑案件风知识图解</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>暗黑漫画 / 信息图 / 案件调查 / 编辑排版 / 论文解读</sub></p>
+<hr>
+<p><a href="prompts/scientific-editorial-infographic/index.md"><img src="prompts/scientific-editorial-infographic/preview.webp" alt="科研编辑风知识信息图" width="100%"></a></p>
+<p><a href="prompts/scientific-editorial-infographic/index.md"><strong>科研编辑风知识信息图</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>科研 / 信息图 / 编辑排版 / 论文解读 / 瑞士网格</sub></p>
+<hr>
 <p><a href="prompts/anthropic-research-editorial/index.md"><img src="prompts/anthropic-research-editorial/preview.webp" alt="Anthropic Research 风格研究编辑封面" width="100%"></a></p>
 <p><a href="prompts/anthropic-research-editorial/index.md"><strong>Anthropic Research 风格研究编辑封面</strong></a><br>
 <sub>封面视觉类 · ChatGPT Image · 自定义</sub><br><sub>研究编辑 / 极简 / 手绘隐喻 / 衬线排版 / 大面积留白 / AI研究</sub></p>
