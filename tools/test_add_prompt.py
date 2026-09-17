@@ -116,6 +116,14 @@ class GalleryTests(unittest.TestCase):
             "```text\n# 这不是标题\n```\n\n# 实际标题\n![预览图](preview.webp)\n",
         )
 
+    def test_ratio_accepts_adaptive_and_shows_it_in_web_form(self):
+        self.assertEqual(add_prompt.validate_ratio("自适应"), "自适应")
+        self.assertIn("16:9、自定义或自适应", add_prompt.web_page([]).decode("utf-8"))
+
+    def test_ratio_rejects_other_text(self):
+        with self.assertRaisesRegex(ValueError, "自定义.*自适应"):
+            add_prompt.validate_ratio("任意比例")
+
 
 if __name__ == "__main__":
     unittest.main()
