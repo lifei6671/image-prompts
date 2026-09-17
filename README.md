@@ -1,6 +1,6 @@
 # Image Prompts
 
-共 91 条 Prompt · 点击图片或标题查看完整 Prompt。
+共 92 条 Prompt · 点击图片或标题查看完整 Prompt。
 
 > 此文件由 `python tools/add_prompt.py rebuild` 自动生成；命令行或网页新增 Prompt 后会自动更新。
 
@@ -10,6 +10,192 @@
 <p><a href="prompts/editorial-scrapbook-collage/index.md"><img src="prompts/editorial-scrapbook-collage/preview.webp" alt="纸本手账摄影拼贴" width="100%"></a></p>
 <p><a href="prompts/editorial-scrapbook-collage/index.md"><strong>纸本手账摄影拼贴</strong></a><br>
 <sub>照片创作类 · GPT-Image-2.5 · 自定义</sub><br><sub>拼贴 / 手账 / 纸本 / 水彩 / 摄影 / 编辑设计</sub></p>
+<hr>
+<p><a href="prompts/east-asian-editorial-modernist-poster/index.md"><img src="prompts/east-asian-editorial-modernist-poster/preview.webp" alt="东亚现代主义编辑海报" width="100%"></a></p>
+<p><a href="prompts/east-asian-editorial-modernist-poster/index.md"><strong>东亚现代主义编辑海报</strong></a><br>
+<sub>封面艺术类 · ChatGPT Image · 2:5</sub><br><sub>极简 / 编辑设计 / 现代主义 / 抽象海报 / 中英排版</sub></p>
+<hr>
+<p><a href="prompts/embossed-paper-chinese-editorial/index.md"><img src="prompts/embossed-paper-chinese-editorial/preview.webp" alt="东方纸雕浮雕文化海报" width="100%"></a></p>
+<p><a href="prompts/embossed-paper-chinese-editorial/index.md"><strong>东方纸雕浮雕文化海报</strong></a><br>
+<sub>封面艺术类 · ChatGPT Image · 3:4</sub><br><sub>国风 / 纸雕 / 浮雕 / 编辑设计 / 东方线描</sub></p>
+<hr>
+<p><a href="prompts/museum-artifact-editorial-poster/index.md"><img src="prompts/museum-artifact-editorial-poster/preview.webp" alt="博物馆文物典藏编辑海报" width="100%"></a></p>
+<p><a href="prompts/museum-artifact-editorial-poster/index.md"><strong>博物馆文物典藏编辑海报</strong></a><br>
+<sub>文化展览类 · ChatGPT Image · 3:4</sub><br><sub>博物馆 / 文物 / 编辑设计 / 典藏 / 东方美学</sub></p>
+<hr>
+<p><a href="prompts/city-mood-collage-journal/index.md"><img src="prompts/city-mood-collage-journal/preview.webp" alt="城市氛围拼贴晨间海报" width="100%"></a></p>
+<p><a href="prompts/city-mood-collage-journal/index.md"><strong>城市氛围拼贴晨间海报</strong></a><br>
+<sub>照片重构类 · ChatGPT Image · 4:5</sub><br><sub>城市 / 拼图 / 手账 / 胶片氛围 / 编辑设计</sub></p>
+<hr>
+<p><a href="prompts/photo-conceptual-wordmark-diptych/index.md"><img src="prompts/photo-conceptual-wordmark-diptych/preview.webp" alt="摄影概念字标二联画" width="100%"></a></p>
+<p><a href="prompts/photo-conceptual-wordmark-diptych/index.md"><strong>摄影概念字标二联画</strong></a><br>
+<sub>照片重构类 · ChatGPT Image · 3:4</sub><br><sub>二联画 / 字标设计 / Logo / 图文融合 / 极简设计</sub></p>
+<hr>
+<p><a href="prompts/photo-editorial-illustration-diptych/index.md"><img src="prompts/photo-editorial-illustration-diptych/preview.webp" alt="摄影纸本编辑插画二联画" width="100%"></a></p>
+<p><a href="prompts/photo-editorial-illustration-diptych/index.md"><strong>摄影纸本编辑插画二联画</strong></a><br>
+<sub>照片重构类 · ChatGPT Image · 3:4</sub><br><sub>二联画 / 编辑摄影 / 纸本插画 / 场景提炼 / 极简排版</sub></p>
+<hr>
+<p><a href="prompts/chinese-landscape-editorial-poster/index.md"><img src="prompts/chinese-landscape-editorial-poster/preview.webp" alt="新国风山水意境海报" width="100%"></a></p>
+<p><a href="prompts/chinese-landscape-editorial-poster/index.md"><strong>新国风山水意境海报</strong></a><br>
+<sub>封面艺术类 · ChatGPT Image · 4:5</sub><br><sub>国风 / 山水 / 水墨 / 编辑设计 / 海报</sub></p>
+<hr>
+<p><a href="prompts/minimal-city-greeting-poster/index.md"><img src="prompts/minimal-city-greeting-poster/preview.webp" alt="极简城市晨语地标海报" width="100%"></a></p>
+<p><a href="prompts/minimal-city-greeting-poster/index.md"><strong>极简城市晨语地标海报</strong></a><br>
+<sub>封面艺术类 · ChatGPT Image · 4:5</sub><br><sub>城市 / 地标 / 极简 / 编辑设计 / 海报</sub></p>
+<hr>
+<p><a href="prompts/modernist-cultural-poster/index.md"><img src="prompts/modernist-cultural-poster/preview.webp" alt="现代主义文化活动海报" width="100%"></a></p>
+<p><a href="prompts/modernist-cultural-poster/index.md"><strong>现代主义文化活动海报</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 3:4</sub><br><sub>现代主义 / 编辑设计 / 几何符号 / 极简 / 活动海报</sub></p>
+<hr>
+<p><a href="prompts/whiteboard-infographic-real/index.md"><img src="prompts/whiteboard-infographic-real/preview.webp" alt="白板手绘知识图解" width="100%"></a></p>
+<p><a href="prompts/whiteboard-infographic-real/index.md"><strong>白板手绘知识图解</strong></a><br>
+<sub>封面知识类 · ChatGPT Image 2.5 · 16:9</sub><br><sub>手绘 / 信息图 / 白板</sub></p>
+<hr>
+<p><a href="prompts/architectural-editorial-campaign/index.md"><img src="prompts/architectural-editorial-campaign/preview.webp" alt="高端空间品牌编辑海报" width="100%"></a></p>
+<p><a href="prompts/architectural-editorial-campaign/index.md"><strong>高端空间品牌编辑海报</strong></a><br>
+<sub>品牌商业类 · ChatGPT Image · 4:5</sub><br><sub>建筑空间 / 编辑设计 / 品牌海报 / 透光色块 / 高级商业摄影</sub></p>
+<hr>
+<p><a href="prompts/noir-case-editorial-infographic/index.md"><img src="prompts/noir-case-editorial-infographic/preview.webp" alt="暗黑案件风知识图解" width="100%"></a></p>
+<p><a href="prompts/noir-case-editorial-infographic/index.md"><strong>暗黑案件风知识图解</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>暗黑漫画 / 信息图 / 案件调查 / 编辑排版 / 论文解读</sub></p>
+<hr>
+<p><a href="prompts/minimal-line-whiteboard-cover/index.md"><img src="prompts/minimal-line-whiteboard-cover/preview.webp" alt="极简线描白板封面" width="100%"></a></p>
+<p><a href="prompts/minimal-line-whiteboard-cover/index.md"><strong>极简线描白板封面</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>极简线描 / 白板插画 / 信息图 / 扁平手绘 / 科技封面</sub></p>
+<hr>
+<p><a href="prompts/warm-paper-handdrawn-flow-cover/index.md"><img src="prompts/warm-paper-handdrawn-flow-cover/preview.webp" alt="白板手绘知识图解" width="100%"></a></p>
+<p><a href="prompts/warm-paper-handdrawn-flow-cover/index.md"><strong>白板手绘知识图解</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 白板 / 流程图解 / 极简插画</sub></p>
+<hr>
+<p><a href="prompts/handdrawn-editorial-infographic/index.md"><img src="prompts/handdrawn-editorial-infographic/preview.webp" alt="手绘编辑型知识信息图" width="100%"></a></p>
+<p><a href="prompts/handdrawn-editorial-infographic/index.md"><strong>手绘编辑型知识信息图</strong></a><br>
+<sub>知识图解类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 流程图 / 手帐 / 纸张质感</sub></p>
+<hr>
+<p><a href="prompts/godot-2d-pixel-metaphor-poster/index.md"><img src="prompts/godot-2d-pixel-metaphor-poster/preview.webp" alt="Godot 2D 像素隐喻海报" width="100%"></a></p>
+<p><a href="prompts/godot-2d-pixel-metaphor-poster/index.md"><strong>Godot 2D 像素隐喻海报</strong></a><br>
+<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>像素艺术 / 独立游戏 / Godot / 视觉隐喻 / 游戏关卡 / 概念海报</sub></p>
+<hr>
+<p><a href="prompts/osb-industrial-blue-line-metaphor/index.md"><img src="prompts/osb-industrial-blue-line-metaphor/preview.webp" alt="OSB 工业蓝线条隐喻" width="100%"></a></p>
+<p><a href="prompts/osb-industrial-blue-line-metaphor/index.md"><strong>OSB 工业蓝线条隐喻</strong></a><br>
+<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>OSB刨花板 / 工业蓝 / 极简线条 / 视觉隐喻 / 工业标识 / 编辑封面</sub></p>
+<hr>
+<p><a href="prompts/pixel-avatar-generator/index.md"><img src="prompts/pixel-avatar-generator/preview.webp" alt="像素风头像生成器" width="100%"></a></p>
+<p><a href="prompts/pixel-avatar-generator/index.md"><strong>像素风头像生成器</strong></a><br>
+<sub>头像生成类 · ChatGPT Images 2.5 · 1:1</sub><br><sub>像素风 / 头像 / 8-bit / 复古游戏 / 高饱和配色 / 角色设计</sub></p>
+<hr>
+<p><a href="prompts/consulting-report-visual/index.md"><img src="prompts/consulting-report-visual/preview.webp" alt="咨询报告视觉" width="100%"></a></p>
+<p><a href="prompts/consulting-report-visual/index.md"><strong>咨询报告视觉</strong></a><br>
+<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>管理咨询 / 瑞士现代主义 / 商业报告 / 编辑设计 / 战略视觉 / 极简封面</sub></p>
+<hr>
+<p><a href="prompts/business-tech-magazine-cover/index.md"><img src="prompts/business-tech-magazine-cover/preview.webp" alt="商业杂志头版" width="100%"></a></p>
+<p><a href="prompts/business-tech-magazine-cover/index.md"><strong>商业杂志头版</strong></a><br>
+<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>商业杂志 / 科技编辑 / 商业趋势 / 编辑设计 / 概念封面 / 数据新闻</sub></p>
+<hr>
+<p><a href="prompts/four-layer-landmark-poster/index.md"><img src="prompts/four-layer-landmark-poster/preview.webp" alt="四层风格城市地标转译海报" width="100%"></a></p>
+<p><a href="prompts/four-layer-landmark-poster/index.md"><strong>四层风格城市地标转译海报</strong></a><br>
+<sub>摄影转绘类 · ChatGPT Image · 3:4</sub><br><sub>城市地标 / 四层海报 / 风格转译 / 摄影转绘 / 旅行海报 / 版画</sub></p>
+<hr>
+<p><a href="prompts/mid-century-geometric-paper-collage/index.md"><img src="prompts/mid-century-geometric-paper-collage/preview.webp" alt="复古中期现代主义几何纸片拼贴" width="100%"></a></p>
+<p><a href="prompts/mid-century-geometric-paper-collage/index.md"><strong>复古中期现代主义几何纸片拼贴</strong></a><br>
+<sub>风格转换类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>几何拼贴 / 纸片插画 / Mid-century / 复古编辑 / 低饱和 / 手工剪纸</sub></p>
+<hr>
+<p><a href="prompts/retro-diffuse-gradient-editorial-poster/index.md"><img src="prompts/retro-diffuse-gradient-editorial-poster/preview.webp" alt="复古弥散渐变" width="100%"></a></p>
+<p><a href="prompts/retro-diffuse-gradient-editorial-poster/index.md"><strong>复古弥散渐变</strong></a><br>
+<sub>海报设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>弥散渐变 / 复古印刷 / 实验排版 / 编辑海报 / 扫描质感 / 独立杂志</sub></p>
+<hr>
+<p><a href="prompts/vintage-business-infographic/index.md"><img src="prompts/vintage-business-infographic/preview.webp" alt="复古报刊商业信息图" width="100%"></a></p>
+<p><a href="prompts/vintage-business-infographic/index.md"><strong>复古报刊商业信息图</strong></a><br>
+<sub>封面知识类 · 未注明 · 2:1</sub><br><sub>复古 / 商业 / 信息图</sub></p>
+<hr>
+<p><a href="prompts/retro-time-dislocation-editorial-cover/index.md"><img src="prompts/retro-time-dislocation-editorial-cover/preview.webp" alt="复古时代错位编辑封面" width="100%"></a></p>
+<p><a href="prompts/retro-time-dislocation-editorial-cover/index.md"><strong>复古时代错位编辑封面</strong></a><br>
+<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>复古商业插画 / 时代错位 / 编辑设计 / 超现实隐喻 / Mid-century / 杂志封面</sub></p>
+<hr>
+<p><a href="prompts/retro-ink-dot-matrix-metaphor/index.md"><img src="prompts/retro-ink-dot-matrix-metaphor/preview.webp" alt="复古油墨点阵隐喻" width="100%"></a></p>
+<p><a href="prompts/retro-ink-dot-matrix-metaphor/index.md"><strong>复古油墨点阵隐喻</strong></a><br>
+<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>复古油墨 / 点阵插画 / 极简隐喻 / 档案美学 / 编辑封面 / 机械铅字</sub></p>
+<hr>
+<p><a href="prompts/polaroid-watercolor-pet-portrait/index.md"><img src="prompts/polaroid-watercolor-pet-portrait/preview.webp" alt="宠物拍立得水彩手绘" width="100%"></a></p>
+<p><a href="prompts/polaroid-watercolor-pet-portrait/index.md"><strong>宠物拍立得水彩手绘</strong></a><br>
+<sub>宠物插画类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>宠物肖像 / 拍立得 / 水彩手绘 / 超框构图 / 手写签名 / 纪念插画</sub></p>
+<hr>
+<p><a href="prompts/color-neo-constructivist-megastructure-poster/index.md"><img src="prompts/color-neo-constructivist-megastructure-poster/preview.webp" alt="彩色新构成主义巨构海报" width="100%"></a></p>
+<p><a href="prompts/color-neo-constructivist-megastructure-poster/index.md"><strong>彩色新构成主义巨构海报</strong></a><br>
+<sub>海报设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>新构成主义 / 巨构视觉 / 几何海报 / 极端尺度 / 限色设计 / 复古印刷</sub></p>
+<hr>
+<p><a href="prompts/handdrawn-tech-infographic/index.md"><img src="prompts/handdrawn-tech-infographic/preview.webp" alt="手绘技术科普信息图" width="100%"></a></p>
+<p><a href="prompts/handdrawn-tech-infographic/index.md"><strong>手绘技术科普信息图</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 科普 / 笔记感 / 技术插画</sub></p>
+<hr>
+<p><a href="prompts/cultural-archive-photo-comparison/index.md"><img src="prompts/cultural-archive-photo-comparison/preview.webp" alt="文化档案式摄影对比海报" width="100%"></a></p>
+<p><a href="prompts/cultural-archive-photo-comparison/index.md"><strong>文化档案式摄影对比海报</strong></a><br>
+<sub>摄影海报类 · ChatGPT Image · 3:2</sub><br><sub>摄影再设计 / 左右对比 / 文化档案 / 海报设计 / 东方美学</sub></p>
+<hr>
+<p><a href="prompts/voxel-block-world-poster-1/index.md"><img src="prompts/voxel-block-world-poster-1/preview.webp" alt="方块世界" width="100%"></a></p>
+<p><a href="prompts/voxel-block-world-poster-1/index.md"><strong>方块世界</strong></a><br>
+<sub>海报设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>方块世界 / 体素 / Minecraft / 游戏视觉 / 像素场景 / 立体文字</sub></p>
+<hr>
+<p><a href="prompts/minimal-public-space-editorial-photography/index.md"><img src="prompts/minimal-public-space-editorial-photography/preview.webp" alt="极简公共空间摄影" width="100%"></a></p>
+<p><a href="prompts/minimal-public-space-editorial-photography/index.md"><strong>极简公共空间摄影</strong></a><br>
+<sub>摄影海报类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>公共空间 / 极简摄影 / 编辑海报 / 几何构图 / 复古色彩 / 空间隐喻</sub></p>
+<hr>
+<p><a href="prompts/minimal-handdrawn-tech-concept-map/index.md"><img src="prompts/minimal-handdrawn-tech-concept-map/preview.webp" alt="极简手绘技术概念关系图" width="100%"></a></p>
+<p><a href="prompts/minimal-handdrawn-tech-concept-map/index.md"><strong>极简手绘技术概念关系图</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 白板 / 技术科普 / 概念图解</sub></p>
+<hr>
+<p><a href="prompts/minimal-paper-acrylic-block-illustration/index.md"><img src="prompts/minimal-paper-acrylic-block-illustration/preview.webp" alt="极简纸感丙烯色块插画" width="100%"></a></p>
+<p><a href="prompts/minimal-paper-acrylic-block-illustration/index.md"><strong>极简纸感丙烯色块插画</strong></a><br>
+<sub>插画设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>极简插画 / 纸张质感 / 丙烯色块 / 大留白 / 视觉提炼 / 封面插画</sub></p>
+<hr>
+<p><a href="prompts/minimal-visual-metaphor-editorial-cover/index.md"><img src="prompts/minimal-visual-metaphor-editorial-cover/preview.webp" alt="极简视觉隐喻风" width="100%"></a></p>
+<p><a href="prompts/minimal-visual-metaphor-editorial-cover/index.md"><strong>极简视觉隐喻风</strong></a><br>
+<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>极简 / 视觉隐喻 / 抽象装置 / 商业科技 / 编辑设计 / 静物摄影</sub></p>
+<hr>
+<p><a href="prompts/minimal-light-tech-visual/index.md"><img src="prompts/minimal-light-tech-visual/preview.webp" alt="极简轻科技视觉" width="100%"></a></p>
+<p><a href="prompts/minimal-light-tech-visual/index.md"><strong>极简轻科技视觉</strong></a><br>
+<sub>封面视觉类 · ChatGPT Image · 自定义</sub><br><sub>极简 / 科技 / 渐变 / 品牌视觉 / 轻拟物</sub></p>
+<hr>
+<p><a href="prompts/navy-white-diecut-sticker/index.md"><img src="prompts/navy-white-diecut-sticker/preview.webp" alt="深蓝白手绘模切贴纸" width="100%"></a></p>
+<p><a href="prompts/navy-white-diecut-sticker/index.md"><strong>深蓝白手绘模切贴纸</strong></a><br>
+<sub>参考图风格化 · ChatGPT Image · 1:1</sub><br><sub>手绘 / 模切贴纸 / 极简插画 / 深蓝白 / 人物宠物 / 参考图重绘</sub></p>
+<hr>
+<p><a href="prompts/scientific-journal-concept-cover/index.md"><img src="prompts/scientific-journal-concept-cover/preview.webp" alt="科研期刊概念" width="100%"></a></p>
+<p><a href="prompts/scientific-journal-concept-cover/index.md"><strong>科研期刊概念</strong></a><br>
+<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>科研期刊 / 科学封面 / 机制可视化 / 学术视觉 / 编辑设计 / 概念渲染</sub></p>
+<hr>
+<p><a href="prompts/pastel-modular-knowledge-flow/index.md"><img src="prompts/pastel-modular-knowledge-flow/preview.webp" alt="粉彩模块知识流程讲解图" width="100%"></a></p>
+<p><a href="prompts/pastel-modular-knowledge-flow/index.md"><strong>粉彩模块知识流程讲解图</strong></a><br>
+<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 白板 / 知识图解 / 流程图 / 科普</sub></p>
+<hr>
+<p><a href="prompts/embossed-debossed-paper-editorial-cover/index.md"><img src="prompts/embossed-debossed-paper-editorial-cover/preview.webp" alt="纸面击凸压凹封面" width="100%"></a></p>
+<p><a href="prompts/embossed-debossed-paper-editorial-cover/index.md"><strong>纸面击凸压凹封面</strong></a><br>
+<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>击凸 / 压凹 / 纸张工艺 / 编辑设计 / 极简海报 / 艺术书封</sub></p>
+<hr>
+<p><a href="prompts/cyber-bioluminescent-flower-infographic/index.md"><img src="prompts/cyber-bioluminescent-flower-infographic/preview.webp" alt="赛博生物荧光花卉概念信息图" width="100%"></a></p>
+<p><a href="prompts/cyber-bioluminescent-flower-infographic/index.md"><strong>赛博生物荧光花卉概念信息图</strong></a><br>
+<sub>科技信息图类 · ChatGPT Image · 9:16</sub><br><sub>赛博 / 生物荧光 / 花卉 / 信息图 / HUD / X光透视 / 科技档案</sub></p>
+<hr>
+<p><a href="prompts/silver-foil-klein-blue-editorial-cover/index.md"><img src="prompts/silver-foil-klein-blue-editorial-cover/preview.webp" alt="银色锡纸蓝字" width="100%"></a></p>
+<p><a href="prompts/silver-foil-klein-blue-editorial-cover/index.md"><strong>银色锡纸蓝字</strong></a><br>
+<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>银色锡纸 / 克莱因蓝 / 极简设计 / 线条隐喻 / 编辑封面 / 金属材质</sub></p>
+<hr>
+<p><a href="prompts/black-white-vintage-etching-cover/index.md"><img src="prompts/black-white-vintage-etching-cover/preview.webp" alt="黑白复古蚀刻版画封面" width="100%"></a></p>
+<p><a href="prompts/black-white-vintage-etching-cover/index.md"><strong>黑白复古蚀刻版画封面</strong></a><br>
+<sub>封面艺术类 · ChatGPT Images 2.5 · 5:2</sub><br><sub>黑白 / 蚀刻版画 / 铜版画 / 复古 / 超现实 / 编辑插画</sub></p>
+<hr>
+<p><a href="prompts/black-white-gray-avant-garde-geometric-poster/index.md"><img src="prompts/black-white-gray-avant-garde-geometric-poster/preview.webp" alt="黑白灰先锋几何海报" width="100%"></a></p>
+<p><a href="prompts/black-white-gray-avant-garde-geometric-poster/index.md"><strong>黑白灰先锋几何海报</strong></a><br>
+<sub>海报设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>黑白灰 / 几何海报 / 先锋设计 / 现代主义 / 极简排版 / 构成设计</sub></p>
+<hr>
+<p><a href="prompts/black-red-silhouette-cover/index.md"><img src="prompts/black-red-silhouette-cover/preview.webp" alt="黑红剪影封面" width="100%"></a></p>
+<p><a href="prompts/black-red-silhouette-cover/index.md"><strong>黑红剪影封面</strong></a><br>
+<sub>封面视觉类 · ChatGPT Image · 自定义</sub><br><sub>黑红 / 剪影 / 极简 / 高对比 / 编辑封面 / 视觉隐喻</sub></p>
+<hr>
+</td>
+<td width="50%" valign="top">
+<p><a href="prompts/editorial-wedding-invitation/index.md"><img src="prompts/editorial-wedding-invitation/preview.webp" alt="高级编辑式婚礼邀请函" width="100%"></a></p>
+<p><a href="prompts/editorial-wedding-invitation/index.md"><strong>高级编辑式婚礼邀请函</strong></a><br>
+<sub>婚礼邀请类 · ChatGPT Image · 3:4</sub><br><sub>婚礼 / 邀请函 / 编辑设计 / 纸本 / 高级感 / 极简 / 风格适配</sub></p>
 <hr>
 <p><a href="prompts/luminous-chinese-heritage-poster/index.md"><img src="prompts/luminous-chinese-heritage-poster/preview.webp" alt="东方纪念日鎏光线描海报" width="100%"></a></p>
 <p><a href="prompts/luminous-chinese-heritage-poster/index.md"><strong>东方纪念日鎏光线描海报</strong></a><br>
@@ -190,188 +376,6 @@
 <p><a href="prompts/black-retro-modernist-cover/index.md"><img src="prompts/black-retro-modernist-cover/preview.webp" alt="黑色复古现代主义封面" width="100%"></a></p>
 <p><a href="prompts/black-retro-modernist-cover/index.md"><strong>黑色复古现代主义封面</strong></a><br>
 <sub>封面视觉类 · ChatGPT Image · 自定义</sub><br><sub>黑色封面 / 复古现代主义 / 编辑插画 / 几何构成 / 书封设计 / 丝网印刷</sub></p>
-<hr>
-</td>
-<td width="50%" valign="top">
-<p><a href="prompts/east-asian-editorial-modernist-poster/index.md"><img src="prompts/east-asian-editorial-modernist-poster/preview.webp" alt="东亚现代主义编辑海报" width="100%"></a></p>
-<p><a href="prompts/east-asian-editorial-modernist-poster/index.md"><strong>东亚现代主义编辑海报</strong></a><br>
-<sub>封面艺术类 · ChatGPT Image · 2:5</sub><br><sub>极简 / 编辑设计 / 现代主义 / 抽象海报 / 中英排版</sub></p>
-<hr>
-<p><a href="prompts/embossed-paper-chinese-editorial/index.md"><img src="prompts/embossed-paper-chinese-editorial/preview.webp" alt="东方纸雕浮雕文化海报" width="100%"></a></p>
-<p><a href="prompts/embossed-paper-chinese-editorial/index.md"><strong>东方纸雕浮雕文化海报</strong></a><br>
-<sub>封面艺术类 · ChatGPT Image · 3:4</sub><br><sub>国风 / 纸雕 / 浮雕 / 编辑设计 / 东方线描</sub></p>
-<hr>
-<p><a href="prompts/museum-artifact-editorial-poster/index.md"><img src="prompts/museum-artifact-editorial-poster/preview.webp" alt="博物馆文物典藏编辑海报" width="100%"></a></p>
-<p><a href="prompts/museum-artifact-editorial-poster/index.md"><strong>博物馆文物典藏编辑海报</strong></a><br>
-<sub>文化展览类 · ChatGPT Image · 3:4</sub><br><sub>博物馆 / 文物 / 编辑设计 / 典藏 / 东方美学</sub></p>
-<hr>
-<p><a href="prompts/city-mood-collage-journal/index.md"><img src="prompts/city-mood-collage-journal/preview.webp" alt="城市氛围拼贴晨间海报" width="100%"></a></p>
-<p><a href="prompts/city-mood-collage-journal/index.md"><strong>城市氛围拼贴晨间海报</strong></a><br>
-<sub>照片重构类 · ChatGPT Image · 4:5</sub><br><sub>城市 / 拼图 / 手账 / 胶片氛围 / 编辑设计</sub></p>
-<hr>
-<p><a href="prompts/photo-conceptual-wordmark-diptych/index.md"><img src="prompts/photo-conceptual-wordmark-diptych/preview.webp" alt="摄影概念字标二联画" width="100%"></a></p>
-<p><a href="prompts/photo-conceptual-wordmark-diptych/index.md"><strong>摄影概念字标二联画</strong></a><br>
-<sub>照片重构类 · ChatGPT Image · 3:4</sub><br><sub>二联画 / 字标设计 / Logo / 图文融合 / 极简设计</sub></p>
-<hr>
-<p><a href="prompts/photo-editorial-illustration-diptych/index.md"><img src="prompts/photo-editorial-illustration-diptych/preview.webp" alt="摄影纸本编辑插画二联画" width="100%"></a></p>
-<p><a href="prompts/photo-editorial-illustration-diptych/index.md"><strong>摄影纸本编辑插画二联画</strong></a><br>
-<sub>照片重构类 · ChatGPT Image · 3:4</sub><br><sub>二联画 / 编辑摄影 / 纸本插画 / 场景提炼 / 极简排版</sub></p>
-<hr>
-<p><a href="prompts/chinese-landscape-editorial-poster/index.md"><img src="prompts/chinese-landscape-editorial-poster/preview.webp" alt="新国风山水意境海报" width="100%"></a></p>
-<p><a href="prompts/chinese-landscape-editorial-poster/index.md"><strong>新国风山水意境海报</strong></a><br>
-<sub>封面艺术类 · ChatGPT Image · 4:5</sub><br><sub>国风 / 山水 / 水墨 / 编辑设计 / 海报</sub></p>
-<hr>
-<p><a href="prompts/minimal-city-greeting-poster/index.md"><img src="prompts/minimal-city-greeting-poster/preview.webp" alt="极简城市晨语地标海报" width="100%"></a></p>
-<p><a href="prompts/minimal-city-greeting-poster/index.md"><strong>极简城市晨语地标海报</strong></a><br>
-<sub>封面艺术类 · ChatGPT Image · 4:5</sub><br><sub>城市 / 地标 / 极简 / 编辑设计 / 海报</sub></p>
-<hr>
-<p><a href="prompts/modernist-cultural-poster/index.md"><img src="prompts/modernist-cultural-poster/preview.webp" alt="现代主义文化活动海报" width="100%"></a></p>
-<p><a href="prompts/modernist-cultural-poster/index.md"><strong>现代主义文化活动海报</strong></a><br>
-<sub>封面知识类 · ChatGPT Image · 3:4</sub><br><sub>现代主义 / 编辑设计 / 几何符号 / 极简 / 活动海报</sub></p>
-<hr>
-<p><a href="prompts/whiteboard-infographic-real/index.md"><img src="prompts/whiteboard-infographic-real/preview.webp" alt="白板手绘知识图解" width="100%"></a></p>
-<p><a href="prompts/whiteboard-infographic-real/index.md"><strong>白板手绘知识图解</strong></a><br>
-<sub>封面知识类 · ChatGPT Image 2.5 · 16:9</sub><br><sub>手绘 / 信息图 / 白板</sub></p>
-<hr>
-<p><a href="prompts/architectural-editorial-campaign/index.md"><img src="prompts/architectural-editorial-campaign/preview.webp" alt="高端空间品牌编辑海报" width="100%"></a></p>
-<p><a href="prompts/architectural-editorial-campaign/index.md"><strong>高端空间品牌编辑海报</strong></a><br>
-<sub>品牌商业类 · ChatGPT Image · 4:5</sub><br><sub>建筑空间 / 编辑设计 / 品牌海报 / 透光色块 / 高级商业摄影</sub></p>
-<hr>
-<p><a href="prompts/noir-case-editorial-infographic/index.md"><img src="prompts/noir-case-editorial-infographic/preview.webp" alt="暗黑案件风知识图解" width="100%"></a></p>
-<p><a href="prompts/noir-case-editorial-infographic/index.md"><strong>暗黑案件风知识图解</strong></a><br>
-<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>暗黑漫画 / 信息图 / 案件调查 / 编辑排版 / 论文解读</sub></p>
-<hr>
-<p><a href="prompts/minimal-line-whiteboard-cover/index.md"><img src="prompts/minimal-line-whiteboard-cover/preview.webp" alt="极简线描白板封面" width="100%"></a></p>
-<p><a href="prompts/minimal-line-whiteboard-cover/index.md"><strong>极简线描白板封面</strong></a><br>
-<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>极简线描 / 白板插画 / 信息图 / 扁平手绘 / 科技封面</sub></p>
-<hr>
-<p><a href="prompts/warm-paper-handdrawn-flow-cover/index.md"><img src="prompts/warm-paper-handdrawn-flow-cover/preview.webp" alt="白板手绘知识图解" width="100%"></a></p>
-<p><a href="prompts/warm-paper-handdrawn-flow-cover/index.md"><strong>白板手绘知识图解</strong></a><br>
-<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 白板 / 流程图解 / 极简插画</sub></p>
-<hr>
-<p><a href="prompts/handdrawn-editorial-infographic/index.md"><img src="prompts/handdrawn-editorial-infographic/preview.webp" alt="手绘编辑型知识信息图" width="100%"></a></p>
-<p><a href="prompts/handdrawn-editorial-infographic/index.md"><strong>手绘编辑型知识信息图</strong></a><br>
-<sub>知识图解类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 流程图 / 手帐 / 纸张质感</sub></p>
-<hr>
-<p><a href="prompts/godot-2d-pixel-metaphor-poster/index.md"><img src="prompts/godot-2d-pixel-metaphor-poster/preview.webp" alt="Godot 2D 像素隐喻海报" width="100%"></a></p>
-<p><a href="prompts/godot-2d-pixel-metaphor-poster/index.md"><strong>Godot 2D 像素隐喻海报</strong></a><br>
-<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>像素艺术 / 独立游戏 / Godot / 视觉隐喻 / 游戏关卡 / 概念海报</sub></p>
-<hr>
-<p><a href="prompts/osb-industrial-blue-line-metaphor/index.md"><img src="prompts/osb-industrial-blue-line-metaphor/preview.webp" alt="OSB 工业蓝线条隐喻" width="100%"></a></p>
-<p><a href="prompts/osb-industrial-blue-line-metaphor/index.md"><strong>OSB 工业蓝线条隐喻</strong></a><br>
-<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>OSB刨花板 / 工业蓝 / 极简线条 / 视觉隐喻 / 工业标识 / 编辑封面</sub></p>
-<hr>
-<p><a href="prompts/pixel-avatar-generator/index.md"><img src="prompts/pixel-avatar-generator/preview.webp" alt="像素风头像生成器" width="100%"></a></p>
-<p><a href="prompts/pixel-avatar-generator/index.md"><strong>像素风头像生成器</strong></a><br>
-<sub>头像生成类 · ChatGPT Images 2.5 · 1:1</sub><br><sub>像素风 / 头像 / 8-bit / 复古游戏 / 高饱和配色 / 角色设计</sub></p>
-<hr>
-<p><a href="prompts/consulting-report-visual/index.md"><img src="prompts/consulting-report-visual/preview.webp" alt="咨询报告视觉" width="100%"></a></p>
-<p><a href="prompts/consulting-report-visual/index.md"><strong>咨询报告视觉</strong></a><br>
-<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>管理咨询 / 瑞士现代主义 / 商业报告 / 编辑设计 / 战略视觉 / 极简封面</sub></p>
-<hr>
-<p><a href="prompts/business-tech-magazine-cover/index.md"><img src="prompts/business-tech-magazine-cover/preview.webp" alt="商业杂志头版" width="100%"></a></p>
-<p><a href="prompts/business-tech-magazine-cover/index.md"><strong>商业杂志头版</strong></a><br>
-<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>商业杂志 / 科技编辑 / 商业趋势 / 编辑设计 / 概念封面 / 数据新闻</sub></p>
-<hr>
-<p><a href="prompts/four-layer-landmark-poster/index.md"><img src="prompts/four-layer-landmark-poster/preview.webp" alt="四层风格城市地标转译海报" width="100%"></a></p>
-<p><a href="prompts/four-layer-landmark-poster/index.md"><strong>四层风格城市地标转译海报</strong></a><br>
-<sub>摄影转绘类 · ChatGPT Image · 3:4</sub><br><sub>城市地标 / 四层海报 / 风格转译 / 摄影转绘 / 旅行海报 / 版画</sub></p>
-<hr>
-<p><a href="prompts/mid-century-geometric-paper-collage/index.md"><img src="prompts/mid-century-geometric-paper-collage/preview.webp" alt="复古中期现代主义几何纸片拼贴" width="100%"></a></p>
-<p><a href="prompts/mid-century-geometric-paper-collage/index.md"><strong>复古中期现代主义几何纸片拼贴</strong></a><br>
-<sub>风格转换类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>几何拼贴 / 纸片插画 / Mid-century / 复古编辑 / 低饱和 / 手工剪纸</sub></p>
-<hr>
-<p><a href="prompts/retro-diffuse-gradient-editorial-poster/index.md"><img src="prompts/retro-diffuse-gradient-editorial-poster/preview.webp" alt="复古弥散渐变" width="100%"></a></p>
-<p><a href="prompts/retro-diffuse-gradient-editorial-poster/index.md"><strong>复古弥散渐变</strong></a><br>
-<sub>海报设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>弥散渐变 / 复古印刷 / 实验排版 / 编辑海报 / 扫描质感 / 独立杂志</sub></p>
-<hr>
-<p><a href="prompts/vintage-business-infographic/index.md"><img src="prompts/vintage-business-infographic/preview.webp" alt="复古报刊商业信息图" width="100%"></a></p>
-<p><a href="prompts/vintage-business-infographic/index.md"><strong>复古报刊商业信息图</strong></a><br>
-<sub>封面知识类 · 未注明 · 2:1</sub><br><sub>复古 / 商业 / 信息图</sub></p>
-<hr>
-<p><a href="prompts/retro-time-dislocation-editorial-cover/index.md"><img src="prompts/retro-time-dislocation-editorial-cover/preview.webp" alt="复古时代错位编辑封面" width="100%"></a></p>
-<p><a href="prompts/retro-time-dislocation-editorial-cover/index.md"><strong>复古时代错位编辑封面</strong></a><br>
-<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>复古商业插画 / 时代错位 / 编辑设计 / 超现实隐喻 / Mid-century / 杂志封面</sub></p>
-<hr>
-<p><a href="prompts/retro-ink-dot-matrix-metaphor/index.md"><img src="prompts/retro-ink-dot-matrix-metaphor/preview.webp" alt="复古油墨点阵隐喻" width="100%"></a></p>
-<p><a href="prompts/retro-ink-dot-matrix-metaphor/index.md"><strong>复古油墨点阵隐喻</strong></a><br>
-<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>复古油墨 / 点阵插画 / 极简隐喻 / 档案美学 / 编辑封面 / 机械铅字</sub></p>
-<hr>
-<p><a href="prompts/polaroid-watercolor-pet-portrait/index.md"><img src="prompts/polaroid-watercolor-pet-portrait/preview.webp" alt="宠物拍立得水彩手绘" width="100%"></a></p>
-<p><a href="prompts/polaroid-watercolor-pet-portrait/index.md"><strong>宠物拍立得水彩手绘</strong></a><br>
-<sub>宠物插画类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>宠物肖像 / 拍立得 / 水彩手绘 / 超框构图 / 手写签名 / 纪念插画</sub></p>
-<hr>
-<p><a href="prompts/color-neo-constructivist-megastructure-poster/index.md"><img src="prompts/color-neo-constructivist-megastructure-poster/preview.webp" alt="彩色新构成主义巨构海报" width="100%"></a></p>
-<p><a href="prompts/color-neo-constructivist-megastructure-poster/index.md"><strong>彩色新构成主义巨构海报</strong></a><br>
-<sub>海报设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>新构成主义 / 巨构视觉 / 几何海报 / 极端尺度 / 限色设计 / 复古印刷</sub></p>
-<hr>
-<p><a href="prompts/handdrawn-tech-infographic/index.md"><img src="prompts/handdrawn-tech-infographic/preview.webp" alt="手绘技术科普信息图" width="100%"></a></p>
-<p><a href="prompts/handdrawn-tech-infographic/index.md"><strong>手绘技术科普信息图</strong></a><br>
-<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 科普 / 笔记感 / 技术插画</sub></p>
-<hr>
-<p><a href="prompts/cultural-archive-photo-comparison/index.md"><img src="prompts/cultural-archive-photo-comparison/preview.webp" alt="文化档案式摄影对比海报" width="100%"></a></p>
-<p><a href="prompts/cultural-archive-photo-comparison/index.md"><strong>文化档案式摄影对比海报</strong></a><br>
-<sub>摄影海报类 · ChatGPT Image · 3:2</sub><br><sub>摄影再设计 / 左右对比 / 文化档案 / 海报设计 / 东方美学</sub></p>
-<hr>
-<p><a href="prompts/voxel-block-world-poster-1/index.md"><img src="prompts/voxel-block-world-poster-1/preview.webp" alt="方块世界" width="100%"></a></p>
-<p><a href="prompts/voxel-block-world-poster-1/index.md"><strong>方块世界</strong></a><br>
-<sub>海报设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>方块世界 / 体素 / Minecraft / 游戏视觉 / 像素场景 / 立体文字</sub></p>
-<hr>
-<p><a href="prompts/minimal-public-space-editorial-photography/index.md"><img src="prompts/minimal-public-space-editorial-photography/preview.webp" alt="极简公共空间摄影" width="100%"></a></p>
-<p><a href="prompts/minimal-public-space-editorial-photography/index.md"><strong>极简公共空间摄影</strong></a><br>
-<sub>摄影海报类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>公共空间 / 极简摄影 / 编辑海报 / 几何构图 / 复古色彩 / 空间隐喻</sub></p>
-<hr>
-<p><a href="prompts/minimal-handdrawn-tech-concept-map/index.md"><img src="prompts/minimal-handdrawn-tech-concept-map/preview.webp" alt="极简手绘技术概念关系图" width="100%"></a></p>
-<p><a href="prompts/minimal-handdrawn-tech-concept-map/index.md"><strong>极简手绘技术概念关系图</strong></a><br>
-<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 白板 / 技术科普 / 概念图解</sub></p>
-<hr>
-<p><a href="prompts/minimal-paper-acrylic-block-illustration/index.md"><img src="prompts/minimal-paper-acrylic-block-illustration/preview.webp" alt="极简纸感丙烯色块插画" width="100%"></a></p>
-<p><a href="prompts/minimal-paper-acrylic-block-illustration/index.md"><strong>极简纸感丙烯色块插画</strong></a><br>
-<sub>插画设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>极简插画 / 纸张质感 / 丙烯色块 / 大留白 / 视觉提炼 / 封面插画</sub></p>
-<hr>
-<p><a href="prompts/minimal-visual-metaphor-editorial-cover/index.md"><img src="prompts/minimal-visual-metaphor-editorial-cover/preview.webp" alt="极简视觉隐喻风" width="100%"></a></p>
-<p><a href="prompts/minimal-visual-metaphor-editorial-cover/index.md"><strong>极简视觉隐喻风</strong></a><br>
-<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>极简 / 视觉隐喻 / 抽象装置 / 商业科技 / 编辑设计 / 静物摄影</sub></p>
-<hr>
-<p><a href="prompts/minimal-light-tech-visual/index.md"><img src="prompts/minimal-light-tech-visual/preview.webp" alt="极简轻科技视觉" width="100%"></a></p>
-<p><a href="prompts/minimal-light-tech-visual/index.md"><strong>极简轻科技视觉</strong></a><br>
-<sub>封面视觉类 · ChatGPT Image · 自定义</sub><br><sub>极简 / 科技 / 渐变 / 品牌视觉 / 轻拟物</sub></p>
-<hr>
-<p><a href="prompts/navy-white-diecut-sticker/index.md"><img src="prompts/navy-white-diecut-sticker/preview.webp" alt="深蓝白手绘模切贴纸" width="100%"></a></p>
-<p><a href="prompts/navy-white-diecut-sticker/index.md"><strong>深蓝白手绘模切贴纸</strong></a><br>
-<sub>参考图风格化 · ChatGPT Image · 1:1</sub><br><sub>手绘 / 模切贴纸 / 极简插画 / 深蓝白 / 人物宠物 / 参考图重绘</sub></p>
-<hr>
-<p><a href="prompts/scientific-journal-concept-cover/index.md"><img src="prompts/scientific-journal-concept-cover/preview.webp" alt="科研期刊概念" width="100%"></a></p>
-<p><a href="prompts/scientific-journal-concept-cover/index.md"><strong>科研期刊概念</strong></a><br>
-<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>科研期刊 / 科学封面 / 机制可视化 / 学术视觉 / 编辑设计 / 概念渲染</sub></p>
-<hr>
-<p><a href="prompts/pastel-modular-knowledge-flow/index.md"><img src="prompts/pastel-modular-knowledge-flow/preview.webp" alt="粉彩模块知识流程讲解图" width="100%"></a></p>
-<p><a href="prompts/pastel-modular-knowledge-flow/index.md"><strong>粉彩模块知识流程讲解图</strong></a><br>
-<sub>封面知识类 · ChatGPT Image · 16:9</sub><br><sub>手绘 / 信息图 / 白板 / 知识图解 / 流程图 / 科普</sub></p>
-<hr>
-<p><a href="prompts/embossed-debossed-paper-editorial-cover/index.md"><img src="prompts/embossed-debossed-paper-editorial-cover/preview.webp" alt="纸面击凸压凹封面" width="100%"></a></p>
-<p><a href="prompts/embossed-debossed-paper-editorial-cover/index.md"><strong>纸面击凸压凹封面</strong></a><br>
-<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>击凸 / 压凹 / 纸张工艺 / 编辑设计 / 极简海报 / 艺术书封</sub></p>
-<hr>
-<p><a href="prompts/cyber-bioluminescent-flower-infographic/index.md"><img src="prompts/cyber-bioluminescent-flower-infographic/preview.webp" alt="赛博生物荧光花卉概念信息图" width="100%"></a></p>
-<p><a href="prompts/cyber-bioluminescent-flower-infographic/index.md"><strong>赛博生物荧光花卉概念信息图</strong></a><br>
-<sub>科技信息图类 · ChatGPT Image · 9:16</sub><br><sub>赛博 / 生物荧光 / 花卉 / 信息图 / HUD / X光透视 / 科技档案</sub></p>
-<hr>
-<p><a href="prompts/silver-foil-klein-blue-editorial-cover/index.md"><img src="prompts/silver-foil-klein-blue-editorial-cover/preview.webp" alt="银色锡纸蓝字" width="100%"></a></p>
-<p><a href="prompts/silver-foil-klein-blue-editorial-cover/index.md"><strong>银色锡纸蓝字</strong></a><br>
-<sub>封面设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>银色锡纸 / 克莱因蓝 / 极简设计 / 线条隐喻 / 编辑封面 / 金属材质</sub></p>
-<hr>
-<p><a href="prompts/black-white-vintage-etching-cover/index.md"><img src="prompts/black-white-vintage-etching-cover/preview.webp" alt="黑白复古蚀刻版画封面" width="100%"></a></p>
-<p><a href="prompts/black-white-vintage-etching-cover/index.md"><strong>黑白复古蚀刻版画封面</strong></a><br>
-<sub>封面艺术类 · ChatGPT Images 2.5 · 5:2</sub><br><sub>黑白 / 蚀刻版画 / 铜版画 / 复古 / 超现实 / 编辑插画</sub></p>
-<hr>
-<p><a href="prompts/black-white-gray-avant-garde-geometric-poster/index.md"><img src="prompts/black-white-gray-avant-garde-geometric-poster/preview.webp" alt="黑白灰先锋几何海报" width="100%"></a></p>
-<p><a href="prompts/black-white-gray-avant-garde-geometric-poster/index.md"><strong>黑白灰先锋几何海报</strong></a><br>
-<sub>海报设计类 · ChatGPT Images 2.5 · 自定义</sub><br><sub>黑白灰 / 几何海报 / 先锋设计 / 现代主义 / 极简排版 / 构成设计</sub></p>
-<hr>
-<p><a href="prompts/black-red-silhouette-cover/index.md"><img src="prompts/black-red-silhouette-cover/preview.webp" alt="黑红剪影封面" width="100%"></a></p>
-<p><a href="prompts/black-red-silhouette-cover/index.md"><strong>黑红剪影封面</strong></a><br>
-<sub>封面视觉类 · ChatGPT Image · 自定义</sub><br><sub>黑红 / 剪影 / 极简 / 高对比 / 编辑封面 / 视觉隐喻</sub></p>
 <hr>
 </td>
 </tr>
