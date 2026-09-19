@@ -1,12 +1,16 @@
 # Image Prompts
 
-共 93 条 Prompt · 点击图片或标题查看完整 Prompt。
+共 95 条 Prompt · 点击图片或标题查看完整 Prompt。
 
 > 此文件由 `python tools/add_prompt.py rebuild` 自动生成；命令行或网页新增 Prompt 后会自动更新。
 
 <table>
 <tr>
 <td width="50%" valign="top">
+<p><a href="prompts/morning-city-editorial-poster/index.md"><img src="prompts/morning-city-editorial-poster/preview.webp" alt="城市晨光旅行编辑海报" width="100%"></a></p>
+<p><a href="prompts/morning-city-editorial-poster/index.md"><strong>城市晨光旅行编辑海报</strong></a><br>
+<sub>城市海报类 · ChatGPT Image · 1:2</sub><br><sub>城市 / 晨光 / 旅行海报 / 编辑设计 / 粉彩插画 / 建筑 / 空气透视 / 复古印刷</sub></p>
+<hr>
 <p><a href="prompts/quiet-memory-photo-diptych/index.md"><img src="prompts/quiet-memory-photo-diptych/preview.webp" alt="柔光记忆双联写真" width="100%"></a></p>
 <p><a href="prompts/quiet-memory-photo-diptych/index.md"><strong>柔光记忆双联写真</strong></a><br>
 <sub>摄影海报类 · ChatGPT Image · 16:9</sub><br><sub>日系写真 / 双联画 / 柔焦 / 胶片感 / 编辑设计</sub></p>
@@ -197,6 +201,10 @@
 <hr>
 </td>
 <td width="50%" valign="top">
+<p><a href="prompts/minimal-life-philosophy-cartoon/index.md"><img src="prompts/minimal-life-philosophy-cartoon/preview.webp" alt="极简手绘生活哲理漫画" width="100%"></a></p>
+<p><a href="prompts/minimal-life-philosophy-cartoon/index.md"><strong>极简手绘生活哲理漫画</strong></a><br>
+<sub>情绪漫画类 · ChatGPT Image · 2:3</sub><br><sub>手绘 / 极简 / 漫画 / 治愈 / 哲理 / 留白</sub></p>
+<hr>
 <p><a href="prompts/editorial-scrapbook-collage/index.md"><img src="prompts/editorial-scrapbook-collage/preview.webp" alt="纸本手账摄影拼贴" width="100%"></a></p>
 <p><a href="prompts/editorial-scrapbook-collage/index.md"><strong>纸本手账摄影拼贴</strong></a><br>
 <sub>照片创作类 · GPT-Image-2.5 · 自定义</sub><br><sub>拼贴 / 手账 / 纸本 / 水彩 / 摄影 / 编辑设计</sub></p>

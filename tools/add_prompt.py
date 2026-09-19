@@ -544,7 +544,7 @@ def build_parser() -> argparse.ArgumentParser:
     commands.add_parser("rebuild", help="从全部元数据重建 README")
     commands.add_parser("list", help="列出全部记录")
     serve_parser = commands.add_parser("serve", help="启动本地录入页面")
-    serve_parser.add_argument("--port", default=8765, type=int, help="监听端口，默认 8765")
+    serve_parser.add_argument("--port", default=9965, type=int, help="监听端口，默认 9965")
     return parser
 
 
