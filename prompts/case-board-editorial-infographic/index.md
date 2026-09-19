@@ -12,7 +12,9 @@ model: "ChatGPT Image"
 aspect_ratio: "16:9"
 created_at: 2026-09-13
 ---
+
 # 案件调查风知识图解
+
 ![预览图](preview.webp)
 
 ## Prompt

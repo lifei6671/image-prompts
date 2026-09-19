@@ -12,7 +12,9 @@ model: "ChatGPT Image"
 aspect_ratio: "3:4"
 created_at: 2026-09-16
 ---
+
 # 摄影钢笔速写二联画
+
 ![预览图](preview.webp)
 
 ## Prompt

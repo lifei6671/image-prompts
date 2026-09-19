@@ -12,7 +12,9 @@ model: "ChatGPT Image"
 aspect_ratio: "3:4"
 created_at: 2026-09-16
 ---
+
 # 现代主义文化活动海报
+
 ![预览图](preview.webp)
 
 ## Prompt

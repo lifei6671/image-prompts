@@ -20,11 +20,6 @@ created_at: 2026-09-11
 
 ## Prompt
 
-````text
-# 科研期刊概念
-
-## Prompt
-
 ```text
 围绕用户提供的研究主题，创作一张“科研期刊封面式概念视觉 / scientific journal cover-style concept image”。
 
@@ -392,4 +387,3 @@ AI 可偏：
 只生成一张最终图。
 不要输出分析、解释、多个方案、拼图、网格或联系表。
 ```
-````

@@ -20,11 +20,6 @@ created_at: 2026-09-11
 
 ## Prompt
 
-````text
-# 宠物拍立得水彩手绘
-
-## Prompt
-
 ```text
 根据用户上传的宠物照片，创作一张高完成度的“宠物拍立得水彩手绘插画 / Polaroid-style watercolor pet illustration”。
 
@@ -799,4 +794,3 @@ delicate.
 
 而是“一张宠物真的从水彩拍立得里轻轻探出来的手绘纪念卡”。
 ```
-````

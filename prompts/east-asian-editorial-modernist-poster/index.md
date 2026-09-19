@@ -12,7 +12,9 @@ model: "ChatGPT Image"
 aspect_ratio: "2:5"
 created_at: 2026-09-16
 ---
+
 # 东亚现代主义编辑海报
+
 ![预览图](preview.webp)
 
 ## Prompt

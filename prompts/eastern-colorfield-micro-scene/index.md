@@ -12,7 +12,9 @@ model: "GPT-Image-2.5"
 aspect_ratio: "自定义"
 created_at: 2026-09-16
 ---
+
 # 现代东方大色域微场景海报
+
 ![预览图](preview.webp)
 
 ## Prompt

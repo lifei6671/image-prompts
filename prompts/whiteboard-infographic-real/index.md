@@ -10,7 +10,9 @@ model: "ChatGPT Image 2.5"
 aspect_ratio: "16:9"
 created_at: 2026-09-16
 ---
+
 # 白板手绘知识图解
+
 ![预览图](preview.webp)
 
 ## Prompt

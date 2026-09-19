@@ -12,7 +12,9 @@ model: "ChatGPT Image"
 aspect_ratio: "4:5"
 created_at: 2026-09-16
 ---
+
 # 新国风山水意境海报
+
 ![预览图](preview.webp)
 
 ## Prompt

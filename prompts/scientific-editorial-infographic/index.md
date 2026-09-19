@@ -12,7 +12,9 @@ model: "ChatGPT Image"
 aspect_ratio: "16:9"
 created_at: 2026-09-13
 ---
+
 # 科研编辑风知识信息图
+
 ![预览图](preview.webp)
 
 ## Prompt

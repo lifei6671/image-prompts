@@ -31,5 +31,1486 @@
     "节日文化类",
     "观点金句类",
     "风格转换类"
+  ],
+  "prompts": [
+    {
+      "id": "morning-city-editorial-poster",
+      "title": "城市晨光旅行编辑海报",
+      "category": "城市海报类",
+      "tags": [
+        "城市",
+        "晨光",
+        "旅行海报",
+        "编辑设计",
+        "粉彩插画",
+        "建筑",
+        "空气透视",
+        "复古印刷"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "1:2",
+      "created_at": "2026-09-19"
+    },
+    {
+      "id": "minimal-life-philosophy-cartoon",
+      "title": "极简手绘生活哲理漫画",
+      "category": "情绪漫画类",
+      "tags": [
+        "手绘",
+        "极简",
+        "漫画",
+        "治愈",
+        "哲理",
+        "留白"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "2:3",
+      "created_at": "2026-09-19"
+    },
+    {
+      "id": "quiet-memory-photo-diptych",
+      "title": "柔光记忆双联写真",
+      "category": "摄影海报类",
+      "tags": [
+        "日系写真",
+        "双联画",
+        "柔焦",
+        "胶片感",
+        "编辑设计"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-18"
+    },
+    {
+      "id": "editorial-scrapbook-collage",
+      "title": "纸本手账摄影拼贴",
+      "category": "照片创作类",
+      "tags": [
+        "拼贴",
+        "手账",
+        "纸本",
+        "水彩",
+        "摄影",
+        "编辑设计"
+      ],
+      "model": "GPT-Image-2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-17"
+    },
+    {
+      "id": "editorial-wedding-invitation",
+      "title": "高级编辑式婚礼邀请函",
+      "category": "婚礼邀请类",
+      "tags": [
+        "婚礼",
+        "邀请函",
+        "编辑设计",
+        "纸本",
+        "高级感",
+        "极简",
+        "风格适配"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-17"
+    },
+    {
+      "id": "east-asian-editorial-modernist-poster",
+      "title": "东亚现代主义编辑海报",
+      "category": "封面艺术类",
+      "tags": [
+        "极简",
+        "编辑设计",
+        "现代主义",
+        "抽象海报",
+        "中英排版"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "2:5",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "luminous-chinese-heritage-poster",
+      "title": "东方纪念日鎏光线描海报",
+      "category": "封面艺术类",
+      "tags": [
+        "国风",
+        "纪念日",
+        "非遗",
+        "鎏光线描",
+        "东方海报"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "9:16",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "embossed-paper-chinese-editorial",
+      "title": "东方纸雕浮雕文化海报",
+      "category": "封面艺术类",
+      "tags": [
+        "国风",
+        "纸雕",
+        "浮雕",
+        "编辑设计",
+        "东方线描"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "chinese-festival-editorial-poster",
+      "title": "东方节日纸本拼贴海报",
+      "category": "节日文化类",
+      "tags": [
+        "节日",
+        "国风",
+        "编辑设计",
+        "纸本拼贴",
+        "文化海报"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "museum-artifact-editorial-poster",
+      "title": "博物馆文物典藏编辑海报",
+      "category": "文化展览类",
+      "tags": [
+        "博物馆",
+        "文物",
+        "编辑设计",
+        "典藏",
+        "东方美学"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "photo-city-time-journal",
+      "title": "城市时刻拍立得手账海报",
+      "category": "照片重构类",
+      "tags": [
+        "城市手账",
+        "拍立得",
+        "编辑设计",
+        "时间识别",
+        "水彩"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "city-mood-collage-journal",
+      "title": "城市氛围拼贴晨间海报",
+      "category": "照片重构类",
+      "tags": [
+        "城市",
+        "拼图",
+        "手账",
+        "胶片氛围",
+        "编辑设计"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "4:5",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "east-asian-photo-ink-diptych",
+      "title": "当代东亚摄影 × 水墨重构双联海报",
+      "category": "艺术海报类",
+      "tags": [
+        "东亚美学",
+        "水墨",
+        "摄影",
+        "双联画",
+        "参考图重构"
+      ],
+      "model": "GPT-images-2.5",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "photo-conceptual-wordmark-diptych",
+      "title": "摄影概念字标二联画",
+      "category": "照片重构类",
+      "tags": [
+        "二联画",
+        "字标设计",
+        "Logo",
+        "图文融合",
+        "极简设计"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "photo-paper-diptych",
+      "title": "摄影纸本微缩二联画",
+      "category": "照片重构类",
+      "tags": [
+        "二联画",
+        "编辑摄影",
+        "纸本拼贴",
+        "微缩场景",
+        "东方意境"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "photo-editorial-illustration-diptych",
+      "title": "摄影纸本编辑插画二联画",
+      "category": "照片重构类",
+      "tags": [
+        "二联画",
+        "编辑摄影",
+        "纸本插画",
+        "场景提炼",
+        "极简排版"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "photo-pen-sketch-diptych",
+      "title": "摄影钢笔速写二联画",
+      "category": "照片重构类",
+      "tags": [
+        "二联画",
+        "摄影",
+        "钢笔速写",
+        "建筑手绘",
+        "旅行手稿"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "chinese-landscape-editorial-poster",
+      "title": "新国风山水意境海报",
+      "category": "封面艺术类",
+      "tags": [
+        "国风",
+        "山水",
+        "水墨",
+        "编辑设计",
+        "海报"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "4:5",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "typographic-editorial-poster",
+      "title": "极简中文排版观念海报",
+      "category": "封面知识类",
+      "tags": [
+        "排版",
+        "字体海报",
+        "编辑设计",
+        "极简",
+        "观念视觉"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "minimal-city-greeting-poster",
+      "title": "极简城市晨语地标海报",
+      "category": "封面艺术类",
+      "tags": [
+        "城市",
+        "地标",
+        "极简",
+        "编辑设计",
+        "海报"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "4:5",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "eastern-colorfield-micro-scene",
+      "title": "现代东方大色域微场景海报",
+      "category": "文化海报类",
+      "tags": [
+        "东方美学",
+        "编辑设计",
+        "纸本拼贴",
+        "水彩",
+        "微场景"
+      ],
+      "model": "GPT-Image-2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "modernist-cultural-poster",
+      "title": "现代主义文化活动海报",
+      "category": "封面知识类",
+      "tags": [
+        "现代主义",
+        "编辑设计",
+        "几何符号",
+        "极简",
+        "活动海报"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "cinematic-double-exposure-portrait",
+      "title": "电影感双重曝光人物海报",
+      "category": "照片重构类",
+      "tags": [
+        "双重曝光",
+        "人物肖像",
+        "电影海报",
+        "风景叙事",
+        "编辑设计"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "whiteboard-infographic-real",
+      "title": "白板手绘知识图解",
+      "category": "封面知识类",
+      "tags": [
+        "手绘",
+        "信息图",
+        "白板"
+      ],
+      "model": "ChatGPT Image 2.5",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "neon-quote-card",
+      "title": "霓虹极简金句卡片",
+      "category": "观点金句类",
+      "tags": [
+        "金句",
+        "极简",
+        "高对比",
+        "霓虹",
+        "引号视觉"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "4:5",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "architectural-editorial-campaign",
+      "title": "高端空间品牌编辑海报",
+      "category": "品牌商业类",
+      "tags": [
+        "建筑空间",
+        "编辑设计",
+        "品牌海报",
+        "透光色块",
+        "高级商业摄影"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "4:5",
+      "created_at": "2026-09-16"
+    },
+    {
+      "id": "watercolor-editorial-collage",
+      "title": "复古水彩编辑拼贴封面",
+      "category": "封面知识类",
+      "tags": [
+        "水彩",
+        "拼贴",
+        "编辑插画",
+        "纸张质感",
+        "复古"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-13"
+    },
+    {
+      "id": "noir-case-editorial-infographic",
+      "title": "暗黑案件风知识图解",
+      "category": "封面知识类",
+      "tags": [
+        "暗黑漫画",
+        "信息图",
+        "案件调查",
+        "编辑排版",
+        "论文解读"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-13"
+    },
+    {
+      "id": "modern-editorial-typography-cover",
+      "title": "极简建筑排版封面",
+      "category": "封面知识类",
+      "tags": [
+        "极简",
+        "排版海报",
+        "编辑设计",
+        "建筑感",
+        "蓝灰单色"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-13"
+    },
+    {
+      "id": "minimal-line-whiteboard-cover",
+      "title": "极简线描白板封面",
+      "category": "封面知识类",
+      "tags": [
+        "极简线描",
+        "白板插画",
+        "信息图",
+        "扁平手绘",
+        "科技封面"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-13"
+    },
+    {
+      "id": "case-board-editorial-infographic",
+      "title": "案件调查风知识图解",
+      "category": "封面知识类",
+      "tags": [
+        "案件调查",
+        "信息图",
+        "编辑排版",
+        "漫画杂志",
+        "论文解读"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-13"
+    },
+    {
+      "id": "warm-paper-handdrawn-flow-cover",
+      "title": "白板手绘知识图解",
+      "category": "封面知识类",
+      "tags": [
+        "手绘",
+        "信息图",
+        "白板",
+        "流程图解",
+        "极简插画"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-13"
+    },
+    {
+      "id": "scientific-editorial-infographic",
+      "title": "科研编辑风知识信息图",
+      "category": "封面知识类",
+      "tags": [
+        "科研",
+        "信息图",
+        "编辑排版",
+        "论文解读",
+        "瑞士网格"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-13"
+    },
+    {
+      "id": "handdrawn-editorial-infographic",
+      "title": "手绘编辑型知识信息图",
+      "category": "知识图解类",
+      "tags": [
+        "手绘",
+        "信息图",
+        "流程图",
+        "手帐",
+        "纸张质感"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-12"
+    },
+    {
+      "id": "anthropic-research-editorial",
+      "title": "Anthropic Research 风格研究编辑封面",
+      "category": "封面视觉类",
+      "tags": [
+        "研究编辑",
+        "极简",
+        "手绘隐喻",
+        "衬线排版",
+        "大面积留白",
+        "AI研究"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "godot-2d-pixel-metaphor-poster",
+      "title": "Godot 2D 像素隐喻海报",
+      "category": "封面设计类",
+      "tags": [
+        "像素艺术",
+        "独立游戏",
+        "Godot",
+        "视觉隐喻",
+        "游戏关卡",
+        "概念海报"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "archive-tabletop-editorial-cover",
+      "title": "Kimi Archive 档案美学",
+      "category": "封面设计类",
+      "tags": [
+        "档案美学",
+        "静物摄影",
+        "编辑设计",
+        "灯箱桌面",
+        "概念封面",
+        "极简留白"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "osb-industrial-blue-line-metaphor",
+      "title": "OSB 工业蓝线条隐喻",
+      "category": "封面设计类",
+      "tags": [
+        "OSB刨花板",
+        "工业蓝",
+        "极简线条",
+        "视觉隐喻",
+        "工业标识",
+        "编辑封面"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "oriental-minimalist-ink-portrait",
+      "title": "东方极简水墨线条肖像",
+      "category": "人物艺术类",
+      "tags": [
+        "水墨",
+        "东方美学",
+        "极简",
+        "毛笔线条",
+        "人物肖像",
+        "参考图重绘"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "2:3",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "pixel-avatar-generator",
+      "title": "像素风头像生成器",
+      "category": "头像生成类",
+      "tags": [
+        "像素风",
+        "头像",
+        "8-bit",
+        "复古游戏",
+        "高饱和配色",
+        "角色设计"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "1:1",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "avant-garde-retro-architecture-poster",
+      "title": "先锋复古建筑海报",
+      "category": "建筑视觉类",
+      "tags": [
+        "建筑",
+        "复古海报",
+        "新构成主义",
+        "编辑设计",
+        "丝网印刷",
+        "城市视觉"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "consulting-report-visual",
+      "title": "咨询报告视觉",
+      "category": "封面设计类",
+      "tags": [
+        "管理咨询",
+        "瑞士现代主义",
+        "商业报告",
+        "编辑设计",
+        "战略视觉",
+        "极简封面"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "brand-collaboration-connection",
+      "title": "品牌协同连接",
+      "category": "封面设计类",
+      "tags": [
+        "品牌协同",
+        "工具连接",
+        "产品集成",
+        "轻拟物",
+        "3D图标",
+        "极简封面"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "business-tech-magazine-cover",
+      "title": "商业杂志头版",
+      "category": "封面设计类",
+      "tags": [
+        "商业杂志",
+        "科技编辑",
+        "商业趋势",
+        "编辑设计",
+        "概念封面",
+        "数据新闻"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "business-tech-magazine-cover-1",
+      "title": "商业杂志头版",
+      "category": "封面设计类",
+      "tags": [
+        "商业杂志",
+        "科技编辑",
+        "商业趋势",
+        "编辑设计",
+        "概念封面",
+        "数据新闻"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "four-layer-landmark-poster",
+      "title": "四层风格城市地标转译海报",
+      "category": "摄影转绘类",
+      "tags": [
+        "城市地标",
+        "四层海报",
+        "风格转译",
+        "摄影转绘",
+        "旅行海报",
+        "版画"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "jinan-typography-travel-poster",
+      "title": "城市字母填景旅游海报",
+      "category": "旅游海报",
+      "tags": [
+        "城市",
+        "旅游",
+        "海报",
+        "字体设计",
+        "建筑插画"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "mid-century-geometric-paper-collage",
+      "title": "复古中期现代主义几何纸片拼贴",
+      "category": "风格转换类",
+      "tags": [
+        "几何拼贴",
+        "纸片插画",
+        "Mid-century",
+        "复古编辑",
+        "低饱和",
+        "手工剪纸"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "retro-duotone-editorial-infographic",
+      "title": "复古双色编辑知识图解",
+      "category": "封面知识类",
+      "tags": [
+        "复古",
+        "信息图",
+        "编辑设计",
+        "双色印刷",
+        "知识卡片",
+        "中文排版"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "retro-diffuse-gradient-editorial-poster",
+      "title": "复古弥散渐变",
+      "category": "海报设计类",
+      "tags": [
+        "弥散渐变",
+        "复古印刷",
+        "实验排版",
+        "编辑海报",
+        "扫描质感",
+        "独立杂志"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "retro-torn-paper-collage-editorial-poster",
+      "title": "复古手撕拼贴",
+      "category": "海报设计类",
+      "tags": [
+        "手撕拼贴",
+        "复古编辑",
+        "旧报纸",
+        "杂志海报",
+        "半调网点",
+        "手写批注"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "vintage-business-infographic",
+      "title": "复古报刊商业信息图",
+      "category": "封面知识类",
+      "tags": [
+        "复古",
+        "商业",
+        "信息图"
+      ],
+      "model": "未注明",
+      "aspect_ratio": "2:1",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "retro-japanese-sci-fi-anime-cover",
+      "title": "复古日本科幻动画",
+      "category": "封面设计类",
+      "tags": [
+        "复古动画",
+        "日本科幻",
+        "赛璐璐",
+        "标题卡",
+        "高饱和限色",
+        "编辑封面"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "retro-time-dislocation-editorial-cover",
+      "title": "复古时代错位编辑封面",
+      "category": "封面设计类",
+      "tags": [
+        "复古商业插画",
+        "时代错位",
+        "编辑设计",
+        "超现实隐喻",
+        "Mid-century",
+        "杂志封面"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "retro-watercolor-tutorial-infographic",
+      "title": "复古水彩手账教程图解",
+      "category": "封面知识类",
+      "tags": [
+        "手绘",
+        "教程",
+        "信息图",
+        "水彩",
+        "步骤图解",
+        "编辑设计"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "5:2",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "retro-ink-dot-matrix-metaphor",
+      "title": "复古油墨点阵隐喻",
+      "category": "封面设计类",
+      "tags": [
+        "复古油墨",
+        "点阵插画",
+        "极简隐喻",
+        "档案美学",
+        "编辑封面",
+        "机械铅字"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "pet-portrait-scribble-line-illustration",
+      "title": "宠物手绘肖像指南",
+      "category": "宠物插画类",
+      "tags": [
+        "宠物插画",
+        "手绘肖像",
+        "彩铅蜡笔",
+        "凌乱线条",
+        "白底留白",
+        "纪念头像"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "polaroid-watercolor-pet-portrait",
+      "title": "宠物拍立得水彩手绘",
+      "category": "宠物插画类",
+      "tags": [
+        "宠物肖像",
+        "拍立得",
+        "水彩手绘",
+        "超框构图",
+        "手写签名",
+        "纪念插画"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "giant-perspective-chinese-title-poster",
+      "title": "巨型透视中文标题",
+      "category": "海报设计类",
+      "tags": [
+        "中文字体",
+        "巨型标题",
+        "强透视",
+        "空间海报",
+        "视觉冲击",
+        "字体构成"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "color-neo-constructivist-megastructure-poster",
+      "title": "彩色新构成主义巨构海报",
+      "category": "海报设计类",
+      "tags": [
+        "新构成主义",
+        "巨构视觉",
+        "几何海报",
+        "极端尺度",
+        "限色设计",
+        "复古印刷"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "grotesque-soul-handdrawn-portrait",
+      "title": "怪诞灵魂手绘",
+      "category": "人物插画类",
+      "tags": [
+        "怪诞手绘",
+        "情绪夸张",
+        "彩色铅笔",
+        "蜡笔",
+        "圆珠笔",
+        "人物重绘"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "handdrawn-tech-infographic",
+      "title": "手绘技术科普信息图",
+      "category": "封面知识类",
+      "tags": [
+        "手绘",
+        "信息图",
+        "科普",
+        "笔记感",
+        "技术插画"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "handdrawn-notebook-infographic",
+      "title": "手绘笔记知识图解",
+      "category": "知识信息图类",
+      "tags": [
+        "手绘",
+        "信息图",
+        "笔记本",
+        "知识图解",
+        "马克笔",
+        "技术科普"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "cultural-archive-photo-comparison",
+      "title": "文化档案式摄影对比海报",
+      "category": "摄影海报类",
+      "tags": [
+        "摄影再设计",
+        "左右对比",
+        "文化档案",
+        "海报设计",
+        "东方美学"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:2",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "voxel-block-world-poster",
+      "title": "方块世界",
+      "category": "海报设计类",
+      "tags": [
+        "方块世界",
+        "体素",
+        "Minecraft",
+        "游戏视觉",
+        "像素场景",
+        "立体文字"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "voxel-block-world-poster-1",
+      "title": "方块世界",
+      "category": "海报设计类",
+      "tags": [
+        "方块世界",
+        "体素",
+        "Minecraft",
+        "游戏视觉",
+        "像素场景",
+        "立体文字"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "minimal-low-poly-editorial-illustration",
+      "title": "极简低多边形编辑插画",
+      "category": "风格转换类",
+      "tags": [
+        "Low Poly",
+        "极简插画",
+        "编辑插画",
+        "几何切面",
+        "大留白",
+        "照片重绘"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "minimal-public-space-editorial-photography",
+      "title": "极简公共空间摄影",
+      "category": "摄影海报类",
+      "tags": [
+        "公共空间",
+        "极简摄影",
+        "编辑海报",
+        "几何构图",
+        "复古色彩",
+        "空间隐喻"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "minimal-strategy-editorial-infographic",
+      "title": "极简战略编辑知识图解",
+      "category": "封面知识类",
+      "tags": [
+        "极简",
+        "编辑设计",
+        "知识图解",
+        "战略咨询",
+        "商业思维",
+        "瑞士网格"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "minimal-handdrawn-tech-concept-map",
+      "title": "极简手绘技术概念关系图",
+      "category": "封面知识类",
+      "tags": [
+        "手绘",
+        "信息图",
+        "白板",
+        "技术科普",
+        "概念图解"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "minimal-editorial-typography",
+      "title": "极简杂志文字排版",
+      "category": "封面知识类",
+      "tags": [
+        "极简",
+        "文字排版",
+        "杂志设计",
+        "编辑设计",
+        "高级感"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "3:4",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "minimal-paper-acrylic-block-illustration",
+      "title": "极简纸感丙烯色块插画",
+      "category": "插画设计类",
+      "tags": [
+        "极简插画",
+        "纸张质感",
+        "丙烯色块",
+        "大留白",
+        "视觉提炼",
+        "封面插画"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "minimal-ink-concept-editorial-cover",
+      "title": "极简纸本墨线概念封面",
+      "category": "封面概念类",
+      "tags": [
+        "极简",
+        "墨线",
+        "视觉隐喻",
+        "编辑设计",
+        "纸本",
+        "概念封面"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "minimal-visual-metaphor-editorial-cover",
+      "title": "极简视觉隐喻风",
+      "category": "封面设计类",
+      "tags": [
+        "极简",
+        "视觉隐喻",
+        "抽象装置",
+        "商业科技",
+        "编辑设计",
+        "静物摄影"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "minimal-light-tech-cover",
+      "title": "极简轻科技",
+      "category": "封面设计类",
+      "tags": [
+        "极简科技",
+        "轻科技",
+        "3D玻璃",
+        "品牌视觉",
+        "产品封面",
+        "大留白"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "minimal-light-tech-visual",
+      "title": "极简轻科技视觉",
+      "category": "封面视觉类",
+      "tags": [
+        "极简",
+        "科技",
+        "渐变",
+        "品牌视觉",
+        "轻拟物"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "french-minimal-ink-concept-poster",
+      "title": "法式极简墨线海报",
+      "category": "封面设计类",
+      "tags": [
+        "法式极简",
+        "墨线插画",
+        "概念海报",
+        "视觉隐喻",
+        "编辑设计",
+        "大留白"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "navy-white-diecut-sticker",
+      "title": "深蓝白手绘模切贴纸",
+      "category": "参考图风格化",
+      "tags": [
+        "手绘",
+        "模切贴纸",
+        "极简插画",
+        "深蓝白",
+        "人物宠物",
+        "参考图重绘"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "1:1",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "whiteboard-infographic",
+      "title": "白板手绘知识图解",
+      "category": "封面知识类",
+      "tags": [
+        "手绘",
+        "白板",
+        "信息图"
+      ],
+      "model": "未注明",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "scientific-journal-concept-cover",
+      "title": "科研期刊概念",
+      "category": "封面设计类",
+      "tags": [
+        "科研期刊",
+        "科学封面",
+        "机制可视化",
+        "学术视觉",
+        "编辑设计",
+        "概念渲染"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "3d-paper-cut-concept-poster",
+      "title": "立体纸雕概念海报",
+      "category": "封面设计类",
+      "tags": [
+        "纸雕",
+        "立体剪纸",
+        "视觉隐喻",
+        "编辑设计",
+        "极简留白",
+        "概念海报"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "pastel-modular-knowledge-flow",
+      "title": "粉彩模块知识流程讲解图",
+      "category": "封面知识类",
+      "tags": [
+        "手绘",
+        "信息图",
+        "白板",
+        "知识图解",
+        "流程图",
+        "科普"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "red-annotated-whiteboard-teaching-guide",
+      "title": "红色批注白板教学拆解图",
+      "category": "封面知识类",
+      "tags": [
+        "手绘",
+        "信息图",
+        "白板",
+        "流程图",
+        "教学图解"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "embossed-debossed-paper-editorial-cover",
+      "title": "纸面击凸压凹封面",
+      "category": "封面设计类",
+      "tags": [
+        "击凸",
+        "压凹",
+        "纸张工艺",
+        "编辑设计",
+        "极简海报",
+        "艺术书封"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "semantic-translation-minimal-poster",
+      "title": "语义转译极简",
+      "category": "海报设计类",
+      "tags": [
+        "语义转译",
+        "极简海报",
+        "文字构成",
+        "视觉隐喻",
+        "编辑设计",
+        "概念海报"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "cyber-bioluminescent-flower-infographic",
+      "title": "赛博生物荧光花卉概念信息图",
+      "category": "科技信息图类",
+      "tags": [
+        "赛博",
+        "生物荧光",
+        "花卉",
+        "信息图",
+        "HUD",
+        "X光透视",
+        "科技档案"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "9:16",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "oversized-title-interleaved-editorial-poster",
+      "title": "超大标题图文穿插",
+      "category": "海报设计类",
+      "tags": [
+        "超大标题",
+        "图文穿插",
+        "编辑设计",
+        "杂志封面",
+        "品牌视觉",
+        "现代海报"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "silver-foil-klein-blue-editorial-cover",
+      "title": "银色锡纸蓝字",
+      "category": "封面设计类",
+      "tags": [
+        "银色锡纸",
+        "克莱因蓝",
+        "极简设计",
+        "线条隐喻",
+        "编辑封面",
+        "金属材质"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "pastel-handdrawn-infographic",
+      "title": "马卡龙纸张手绘知识图解",
+      "category": "封面知识类",
+      "tags": [
+        "手绘",
+        "信息图",
+        "马卡龙",
+        "纸张",
+        "知识图解",
+        "手写字"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "black-white-vintage-etching-cover",
+      "title": "黑白复古蚀刻版画封面",
+      "category": "封面艺术类",
+      "tags": [
+        "黑白",
+        "蚀刻版画",
+        "铜版画",
+        "复古",
+        "超现实",
+        "编辑插画"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "5:2",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "black-white-minimal-concept-poster",
+      "title": "黑白极简概念海报",
+      "category": "海报设计类",
+      "tags": [
+        "黑白灰",
+        "极简",
+        "概念海报",
+        "编辑设计",
+        "现代主义",
+        "作品集封面"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "black-white-gray-avant-garde-geometric-poster",
+      "title": "黑白灰先锋几何海报",
+      "category": "海报设计类",
+      "tags": [
+        "黑白灰",
+        "几何海报",
+        "先锋设计",
+        "现代主义",
+        "极简排版",
+        "构成设计"
+      ],
+      "model": "ChatGPT Images 2.5",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "editorial-boundary-illustration",
+      "title": "黑白越界编辑插画",
+      "category": "参考图风格化",
+      "tags": [
+        "黑白插画",
+        "编辑设计",
+        "越界构图",
+        "几何色块",
+        "手绘线稿",
+        "参考图重构"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "4:5",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "black-red-silhouette-cover",
+      "title": "黑红剪影封面",
+      "category": "封面视觉类",
+      "tags": [
+        "黑红",
+        "剪影",
+        "极简",
+        "高对比",
+        "编辑封面",
+        "视觉隐喻"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    },
+    {
+      "id": "black-retro-modernist-cover",
+      "title": "黑色复古现代主义封面",
+      "category": "封面视觉类",
+      "tags": [
+        "黑色封面",
+        "复古现代主义",
+        "编辑插画",
+        "几何构成",
+        "书封设计",
+        "丝网印刷"
+      ],
+      "model": "ChatGPT Image",
+      "aspect_ratio": "自定义",
+      "created_at": "2026-09-11"
+    }
   ]
 }

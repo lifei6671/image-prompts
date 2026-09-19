@@ -20,11 +20,6 @@ created_at: 2026-09-11
 
 ## Prompt
 
-````text
-# 深蓝白手绘模切贴纸
-
-## Prompt
-
 ```text
 Transform the attached image into a minimal navy-and-white hand-drawn die-cut sticker illustration.
 
@@ -236,4 +231,4 @@ Avoid:
 - and watermarks.
 
 Return exactly one finished square die-cut sticker illustration.
-````
+```

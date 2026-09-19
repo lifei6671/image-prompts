@@ -13,7 +13,9 @@ model: "ChatGPT Image"
 aspect_ratio: "2:3"
 created_at: 2026-09-19
 ---
+
 # 极简手绘生活哲理漫画
+
 ![预览图](preview.webp)
 
 ## Prompt

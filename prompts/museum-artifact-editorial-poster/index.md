@@ -12,7 +12,9 @@ model: "ChatGPT Image"
 aspect_ratio: "3:4"
 created_at: 2026-09-16
 ---
+
 # 博物馆文物典藏编辑海报
+
 ![预览图](preview.webp)
 
 ## Prompt

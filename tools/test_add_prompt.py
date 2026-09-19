@@ -53,6 +53,7 @@ class GalleryTests(unittest.TestCase):
         add_prompt.rebuild()
         self.assertIn("暂无素材。", self.readme())
         self.assertNotIn("<table>", self.readme())
+        self.assertEqual(add_prompt.load_catalog(), {"categories": [], "prompts": []})
 
     def test_two_continuous_columns_order_links_and_escaping(self):
         special = self.metadata("newest", '标题 <图> & "引用"', "2026-09-12")
@@ -77,6 +78,9 @@ class GalleryTests(unittest.TestCase):
         for column in gallery.columns:
             for image in column:
                 self.assertNotIn("height", image)
+        catalog = add_prompt.load_catalog()
+        self.assertEqual(catalog["categories"], ["A & B", "分类"])
+        self.assertEqual([item["id"] for item in catalog["prompts"]], ["newest", "middle", "older"])
         add_prompt.rebuild()
         self.assertEqual(text, self.readme())
         self.assertEqual(before, {p: p.read_bytes() for p in before})
@@ -91,6 +95,7 @@ class GalleryTests(unittest.TestCase):
         add_prompt.create_record(image, self.metadata("second", created_at="2026-09-12"), "Second prompt")
         self.assertEqual([len(c) for c in GalleryParser(self.readme()).columns], [1, 1])
         self.assertIn("prompts/second/index.md", self.readme())
+        self.assertEqual([item["id"] for item in add_prompt.load_catalog()["prompts"]], ["second", "first"])
         self.assertEqual(before, {p: p.read_bytes() for p in before})
 
     def test_uploaded_document_is_preserved_except_for_preview_after_title(self):
@@ -116,9 +121,70 @@ class GalleryTests(unittest.TestCase):
             "```text\n# 这不是标题\n```\n\n# 实际标题\n![预览图](preview.webp)\n",
         )
 
+    def test_extract_prompt_unwraps_legacy_nested_document(self):
+        metadata = self.metadata("legacy")
+        legacy = add_prompt.record_document(
+            metadata,
+            "# 旧标题\n\n## Prompt\n\n```text\n保留的 Prompt 原文\n```",
+        )
+
+        self.assertEqual(add_prompt.extract_prompt_from_document(legacy), "保留的 Prompt 原文")
+
+    def test_extract_prompt_handles_legacy_outer_fence_as_inner_closer(self):
+        metadata = self.metadata("legacy-unclosed")
+        legacy = add_prompt.record_document(
+            metadata,
+            "# 旧标题\n\n## Prompt\n\n```text\n保留这段缺少闭合围栏的 Prompt 正文。",
+        )
+
+        self.assertEqual(
+            add_prompt.extract_prompt_from_document(legacy),
+            "保留这段缺少闭合围栏的 Prompt 正文。",
+        )
+
+    def test_repair_records_normalizes_legacy_document_without_changing_prompt(self):
+        metadata = self.metadata("legacy")
+        self.seed(metadata)
+        index_path = self.root / "prompts" / "legacy" / "index.md"
+        index_path.write_text(
+            add_prompt.record_document(metadata, "# 旧标题\n\n## Prompt\n\n```text\n保留的 Prompt 原文\n```") ,
+            encoding="utf-8",
+        )
+
+        self.assertEqual(add_prompt.repair_records(), 1)
+        self.assertEqual(index_path.read_text(encoding="utf-8"), add_prompt.record_document(metadata, "保留的 Prompt 原文"))
+        self.assertEqual(add_prompt.prompt_details("legacy")["prompt"], "保留的 Prompt 原文")
+
     def test_ratio_accepts_adaptive_and_shows_it_in_web_form(self):
         self.assertEqual(add_prompt.validate_ratio("自适应"), "自适应")
-        self.assertIn("16:9、自定义或自适应", add_prompt.web_page([]).decode("utf-8"))
+        self.assertIn("16:9、自定义或自适应", add_prompt.add_form_page([]).decode("utf-8"))
+
+    def test_catalog_page_embeds_filterable_prompt_metadata(self):
+        catalog = {
+            "categories": ["信息图"],
+            "prompts": [self.metadata("sample", title="示例 Prompt")],
+        }
+
+        page = add_prompt.web_page(catalog).decode("utf-8")
+
+        self.assertIn("全部素材", page)
+        self.assertIn("标签（可组合）", page)
+        self.assertIn('"id": "sample"', page)
+        self.assertIn("/prompts/'+encodeURIComponent(item.id)+'/preview.webp", page)
+        self.assertIn("IntersectionObserver", page)
+        self.assertIn("#more[hidden]{display:none}", page)
+        self.assertIn("more.hidden=shown>=filtered.length", page)
+        self.assertIn('id="details"', page)
+        self.assertIn('id="detail-restore"', page)
+        self.assertIn("恢复默认", page)
+        self.assertIn("复制 Prompt", page)
+        self.assertIn("detailPrompt.value", page)
+        self.assertIn("defaultPrompt=body.prompt", page)
+        self.assertIn("const requestId=++detailRequest", page)
+        self.assertIn("if(requestId!==detailRequest)return", page)
+        self.assertIn("document.addEventListener('click'", page)
+        self.assertIn("event.clientX<bounds.left", page)
+        self.assertIn("/api/prompts/'+encodeURIComponent(item.id)", page)
 
     def test_ratio_rejects_other_text(self):
         with self.assertRaisesRegex(ValueError, "自定义.*自适应"):
