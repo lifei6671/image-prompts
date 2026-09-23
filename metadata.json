@@ -34,6 +34,22 @@
   ],
   "prompts": [
     {
+      "id": "whiteboard-infographic-paper",
+      "title": "白板手绘知识图解",
+      "category": "知识图解类",
+      "tags": [
+        "手绘",
+        "信息图",
+        "白板",
+        "知识图解",
+        "工程笔记",
+        "编辑排版"
+      ],
+      "model": "GPT Image 2.5 Sunburst",
+      "aspect_ratio": "16:9",
+      "created_at": "2026-09-23"
+    },
+    {
       "id": "morning-city-editorial-poster",
       "title": "城市晨光旅行编辑海报",
       "category": "城市海报类",
